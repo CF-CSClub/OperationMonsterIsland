@@ -1,14 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://bnskluy3nvkvl"]
+[gd_scene load_steps=5 format=3 uid="uid://bnskluy3nvkvl"]
 
 [ext_resource type="Script" path="res://Main.gd" id="1_uqkvl"]
 [ext_resource type="Texture2D" uid="uid://2remnc23khfm" path="res://Character Artwork/Advanced/Hoku.png" id="2_0xk2k"]
 [ext_resource type="Texture2D" uid="uid://c1iqbhfouf8tu" path="res://Battle Maps/Map C1 - Frostfire Rift.png" id="2_8kgsn"]
+[ext_resource type="Texture2D" uid="uid://br1t0io34x032" path="res://Character Tokens/Hoku Token.png" id="4_smm6x"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_uqkvl")
 
 [node name="MapC1-FrostfireRift" type="Sprite2D" parent="."]
-position = Vector2(858, 367)
+position = Vector2(830, 306)
 scale = Vector2(0.189542, 0.189542)
 texture = ExtResource("2_8kgsn")
 
@@ -18,5 +19,10 @@ scale = Vector2(0.0880166, 0.107743)
 texture = ExtResource("2_0xk2k")
 
 [node name="SpotTwo" type="Marker2D" parent="."]
-position = Vector2(556, 134)
+position = Vector2(150, 215)
 gizmo_extents = 316.3
+
+[node name="HokuToken" type="Sprite2D" parent="."]
+position = Vector2(857, 274)
+scale = Vector2(0.0152889, 0.0152889)
+texture = ExtResource("4_smm6x")
