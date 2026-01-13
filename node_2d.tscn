@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://bnskluy3nvkvl"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1_uqkvl"]
+[ext_resource type="Texture2D" uid="uid://2remnc23khfm" path="res://Character Artwork/Advanced/Hoku.png" id="2_0xk2k"]
+[ext_resource type="Texture2D" uid="uid://c1iqbhfouf8tu" path="res://Battle Maps/Map C1 - Frostfire Rift.png" id="2_8kgsn"]
+[ext_resource type="Texture2D" uid="uid://br1t0io34x032" path="res://Character Tokens/Hoku Token.png" id="4_smm6x"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_la4ta"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_uqkvl")
+
+[node name="MapC1-FrostfireRift" type="Sprite2D" parent="."]
+position = Vector2(748.883, 577)
+scale = Vector2(0.469771, 0.469771)
+texture = ExtResource("2_8kgsn")
+
+[node name="Hoku" type="Sprite2D" parent="."]
+position = Vector2(358, 129)
+scale = Vector2(0.0880166, 0.107743)
+texture = ExtResource("2_0xk2k")
+
+[node name="SpotTwo" type="Marker2D" parent="."]
+position = Vector2(150, 215)
+gizmo_extents = 316.3
+
+[node name="HokuToken" type="Sprite2D" parent="."]
+position = Vector2(958, 416)
+scale = Vector2(0.0399124, 0.0399124)
+texture = ExtResource("4_smm6x")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(2058, 386)
+constant_linear_velocity = Vector2(1300, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("ConvexPolygonShape2D_la4ta")

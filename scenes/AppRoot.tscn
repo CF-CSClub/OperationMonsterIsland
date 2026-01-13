@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfpgfmfqyvucp"]
+
+[ext_resource type="Script" path="res://scripts/core/AppRoot.gd" id="1_approot"]
+[ext_resource type="Script" path="res://scripts/core/GameStateMachine.gd" id="2_statemachine"]
+
+[node name="AppRoot" type="Node"]
+script = ExtResource("1_approot")
+
+[node name="SceneContainer" type="Node" parent="."]
+
+[node name="GameStateMachine" type="Node" parent="."]
+script = ExtResource("2_statemachine")
