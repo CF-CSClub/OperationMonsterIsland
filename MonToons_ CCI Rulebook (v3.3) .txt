@@ -1,0 +1,1339 @@
+﻿Table of Contents
+
+
+Introduction …………………………………………………………………………………..………….. 2
+        Object of the Game…………………………………………………………………………………. 2
+        How to Win..…………………………………………………………………………………………. 2
+Components……………………………………………………………………………………..……….. 2
+Game Setup ……………………………………………………………………………………………… 3
+Basic Concepts …………………………………………………………………………………………  4
+        Anatomy of a Character Sheet……………………………………………………………………. 5
+Gameplay……………………………………………………………………………………………….… 6
+        Planning Phase ………………………………………………………………………………….…6
+        Speed Value ……………………………………………………………………………….……. 6
+        Action Phase ……………………………………………………………………………………..…6
+Unused Dice …………………………………………………………………………………….. 7
+        Movement Action ……………………………………………………………………….………. 7
+Terrain Types ……………………………………………………………………….…. 8
+Basic Attack Action ……………………………………………………………………….…… 12
+Targeting …………………………………………………………………….………… 13
+        Range …………………………………………………………………………… 13
+        Line of Sight (LoS) …….………………………………………………………...13
+Golden Hearts …….……………………….…………………………………………..14
+Special Attack Action ………………………………………………………………………..… 15
+Powering Up …………………. ……………………………………………………… 15
+Ultimate Attack Action ………………………………………………………………………… 16
+Waystone Action  …………………………………………………………………………….... 16
+Waystone Movement ………………………………………………………..………. 17
+Earning & Gaining Bonuses ………………….……………………………….……. 18
+        Basic Bonuses …….…………………………………………………..………...18
+        Special Bonuses …….…………………………………………………..…….. 20
+        Waystone Bonuses …….…………………………………………………..….. 20
+Waystone Powers ……………………………………………………………………. 21
+Keyword Abilities ………………………………………………………………………………………. 22
+Status Effects ………………………………………………………………………………………….... 27
+        Temporary Status Effects  ……………………………………………………………….……...… 27
+        Persistent Status Effects ………………………………………………………………………….. 30
+Credits ……………………………………………………………………………………………………. 31
+Appendix ..……………………………………………………………………………………………….. 32
+This is a Dynamic Rulebook. We'll update it as new characters, effects, hexes and abilities are added. Thank you for your support!
+
+
+The MonToons of the Coral Isles, accustomed to conflict, now face an unprecedented event, one which promises to fulfill an ancient prophecy: The Tidalmark. As the Waystones of the island’s territories become supercharged, the most powerful MonToon warriors from all factions will traverse sand, sea, rock and reef to claim unimaginable power and etch their names into its vast history.
+
+
+Object of the Game
+As MonToon characters from rival factions, you compete in an epic clash to claim the Waystone and bring prosperity and power to your faction. Achieve victory by tactically positioning yourself around the map, defeating your rivals in combat, or solving a strategic puzzle to unlock the Waystone’s power.
+
+
+How to Win
+In MonToons: Clash of the Coral Isles, there are two paths to victory:
+
+
+1. Last One Standing: Be the last MonToon with health remaining. You win if all other MonToons' health drops to zero.
+
+
+2. Claim the Waystone: Leave your mark on the Waystone by obtaining 4 Waystone bonuses. Harness the island’s power to secure your victory via puzzle. 
+
+
+
+
+  
+
+Shared Components
+These components are placed in the center of the table and used by all players:
+
+
+* 1 Battle Map
+* 1 Waystone Token (represented by any small object; we recommend using a 6-sided die)
+  
+
+Player Components
+Each player will need the following components:
+* 1 Character Sheet
+* 1 Pencil
+* 5 Action Dice (6-sided)
+* 1 Character Token (Use any small object)
+
+
+Optional Player Components
+For an enhanced gameplay experience, players may also use these optional components:  
+* 1 Character Screen
+* 1 Menu Holder
+* 1 Dry-Erase Marker
+
+
+Using the Dry-Erase Method (Recommended)
+For a reusable setup, place your Character Sheet inside a menu holder and use a dry-erase marker to write on it. This setup allows you to erase and reuse your Character Sheet for future games, saving time and reducing paper use.
+
+
+________________
+
+
+  
+
+Game Setup
+1) Choose a Battle Map and place it in the center of all players. If using Battle map (A), place the Waystone Token on the Waystone Location marked with a #6. For other maps, follow their specific setup instructions included in the Battle Map Setup Instructions document.
+
+
+2) Each player selects a unique Character Sheet and places the corresponding Character Token and 5 Action Dice in front of them. Give each player a writing utensil. 
+
+
+If this is your first game, we recommend using the “in-training” Character Sheets, as they are easier to learn with. (Marked with hat on left side of your sheet).
+  
+
+  
+
+3) The player who last visited an island places their Character Token first, choosing any unoccupied Starting Location with a 
+flag symbol (See left) on the Battle Map. If all players have visited an island recently, the youngest player places first. Then, in clockwise order, each remaining player places their Character Token on any other unoccupied starting location with a flag symbol.
+
+
+(If you’re using the provided Character Screen, fold the paper along the dotted line and slide it horizontally underneath your Character Sheet, blocking your screen from view of all players. (See the image in the Optional Player components section above).
+Basic Concepts
+
+
+The Golden Rule
+If the effect of a MonToon’s ability on their Character Sheet directly conflicts with one or more rules in this document, the text on that MonToon’s ability takes precedence.
+
+
+Marking things as ‘Available’  
+When instructed to mark an action, dice slot, attack, or other area as “available,” draw a line around the dashed shape next to it. When you use that area, cross off the outlined shape to indicate it's been used. The area can’t be used again for the rest of the game.
+
+
+Reading & Resolving Character Abilities  
+When resolving character abilities, you will always read and resolve them from top to bottom.
+
+
+(In the example to the right, David places a die with a value of 1 on his Hydro Surge basic attack. First, he deals damage to a single target within range 2, equal to the die value placed—1 in this case. Then, he resolves the second part of the attack. Since the die value was 1, he inflicts PUSH 2 on the target. If the die value had been 2, he would have instead inflicted FORCE 2.)
+  
+
+Altering Hex “States”
+Some MonToons have powers and abilities that alter the “state” of hexes on the Battle Map. When placing terrain on top of existing hexes, you change the “state” of those hexes to match the new terrain placed. Placing Obstacles on top of terrain does NOT alter the state of that terrain.
+
+
+(Eli uses Molthu’s Lava Slap basic attack, placing 2 lava hexes within a range of 3 on the map. He places one over a water hex and another over a jungle hex, changing their states to lava hexes).
+
+
+Towards and Away
+When you are instructed to move a game element towards another game element, that element must end the move closer to that element if possible; otherwise, it doesn't move. When moving away from a game element, it must end the move farther from that element.
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+Dice Placement Requirements
+During the game, you will assign dice to various actions on your Character Sheet. When assigning dice to these actions, you must follow their placement requirements. There are four different types of dice placement requirements you may need to follow:  
+
+
+Range of Numbers
+If a dice slot displays a range of numbers, the dice you assign must match any number within that range. (In this example, you may assign a die with a value of 5 or 6 here).  
+
+
+Specific Number
+If a dice slot displays a specific number, the dice you assign to that slot must match the exact number indicated. (In this example, you must assign a die value of 1 here).  
+
+
+Any Number
+If a dice slot has a question mark inside of it, you may assign a die of any value there.
+ 
+  
+
+PowerUp Slot - If a dice slot is empty, you will assign dice to it during the Planning Phase and remove those dice in the Action Phase. When you remove a die, write its value in the box to PowerUp that attack or action. These values are never erased in the game.
+
+
+Anatomy of a Character Sheet
+Your MonToon’s Character Sheet serves as your player board and features an asymmetric layout. It displays all of your character’s gameplay information, stats, actions and abilities.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gameplay
+The game is played over a series of rounds. Each round consists of 2 phases:
+
+
+1. Planning Phase
+2. Action Phase
+
+
+1) Planning Phase
+At the beginning of each round, all players secretly and simultaneously roll their action dice, then assign them to actions on their Character sheets. 
+
+
+Speed Value  
+Each round, you must assign exactly one die to your Speed Value. This die determines your initiative and turn order for the round. The higher your Speed Value, the faster your character is and the earlier your turn occurs. Note that your Speed Value is not the same as your Movement. Turn order for each round is determined by comparing all players’ Speed Values. 
+
+
+At the beginning of the Action Phase, the player with the highest Speed Value takes their turn first, followed by the player with the next highest Speed Value, and so on. 
+
+
+NOTE: Speed Value is compared at the start of each player’s turn; turn order may fluctuate throughout the round. (For example, if two players are tied for second in turn order with the same health, but then one of those players takes damage from the first player in turn order, the player with the lowest health will then go next. If they are still tied, roll a die and the player with the highest value goes first. 
+
+
+2) Action Phase
+After assigning all of your dice, let everyone at the table know you are 'Ready'. Once you are ‘Ready’, you can no longer re-assign or move dice on your Character Sheet. Once all players have announced that they are ‘Ready’, perform the following two steps in order: 
+
+
+1. Announce Speed
+2. Resolve Actions 
+
+
+A) Announce Speed
+All players announce their Speed Values simultaneously. Once all Speed Values are revealed, starting with the player with the lowest health and proceeding clockwise, each player may choose to cross off one of their available Unused Dice to modify their Speed Value and attempt to go first in turn order (see Unused Dice below). After adjustments, Speed Values are compared again, incorporating any modifications from Unused Dice.
+
+
+
+
+
+
+
+
+B) Resolve Actions
+The player with the highest total Speed Value reveals their Character Sheet, removes the die assigned to their Speed Value and performs any of their assigned actions in any order. 
+
+
+To begin resolving an action, you must first remove the dice assigned to that action. Then, perform that action in its entirety. You must perform an entire action before using a different action; You cannot split up your actions. (For example, you assign a 6 to your Special Movement. You cannot use 3 of that movement, Mark the Waystone, then use the other 3 of that movement). 
+
+
+Once all dice have been removed from your Character Sheet, your turn is over and play passes to the player with the next highest Speed Value.
+
+
+Unused Dice  
+If you are unable to use, or choose not to use, any of your assigned dice during your turn, you may convert those dice into ‘Unused Dice’. 
+
+
+To indicate you have Unused Dice, for each die converted, trace the dashed line around the leftmost unavailable box in the Unused Dice section on your Character Sheet. You can do this up to four times per game. On future turns, you may cross off the leftmost available Unused Dice box to increase your Speed Value by that amount.
+
+
+NOTE: Your MonToon’s Speed Value CAN exceed 6.
+
+
+Players take turns crossing off Unused Dice in clockwise order until all players either choose not to cross off any more available boxes, or have no available boxes left to cross off. The player with the highest Speed Value after all players have passed goes first for that round. 
+If any players are tied for highest, the player with the lowest health goes first. If still tied, all tied players roll a die until one player has the highest roll; that player goes first. The remaining players take turns in descending order of their Speed Values, resolving any ties the same way. 
+
+
+  
+
+Movement Action
+When assigning dice to Movement, you may only use one of the available actions. There are two different types of Movements: Basic Movement and Special Movement. Each Character Sheet features up to 4 unique movements you can use to tactically maneuver around the Battle Map.
+  
+
+If a dice slot here has the movement symbol above the numbers (See right), you may move your MonToon a number of spaces up to the value of the die assigned to that action. You must perform the full movement before taking another action. You cannot split up your movement with other actions.  
+
+
+If there is no movement symbol in the dice slot, you must follow the ability text to the right for that action for details on how to move your MonToon. 
+
+
+A Movement Action may also have a special ability, effect or condition to follow before, during or after resolving that Movement Action. Simply read and resolve the ability text as listed.
+
+
+NOTE: You may choose a value of 0 to stay in your current hex. However, any abilities that require your MonToon to move in order to activate that ability will not activate if you stay. (For example, your ability may say “move exactly 4 and place traps in hexes you moved through. You can’t do this if you stay in your current hex).
+
+
+Terrain Types
+When moving your MonToon along the Battle Map, you may encounter four different types of terrain: Basic, Difficult, Special and Obstacles. Each of these terrain types have their own special rules, effects and/or conditions you must follow. 
+
+
+Basic Terrain
+This type of terrain is the most commonly found in the game and has no special rules, effects, abilities or conditions. Basic Terrain does NOT block Line of Sight (LoS) and requires only one movement to enter. 
+
+
+  
+  
+
+Land
+This terrain has no effects and can be found on all Battle Maps. Land hexes do NOT block Line of Sight (LoS).
+
+
+
+
+  
+
+  
+
+Meadow
+This terrain has no effects and can be found on some Battle Maps. Meadow hexes do NOT block Line of Sight (LoS).
+
+
+
+
+Difficult Terrain
+This terrain type represents environments that are challenging and harder to traverse than Basic Terrain. Entering any Difficult Terrain hex requires two movement. Each hex may also include unique rules, effects, abilities, or conditions related to Line of Sight (LoS).     
+
+
+
+
+Water
+This hex represents flowing water across the island. Water hexes do NOT block Line of Sight (LoS).
+  
+
+  
+
+Jungle
+This hex represents dense and large jungle areas across the island. Jungles hexes do NOT block Line 
+of Sight (LoS).
+
+
+Mountain  
+This hex represents large mountains spanning across the island. Mountain hexes DO BLOCK Line of Sight (LoS) (See Targeting, page 13). Additionally, if you are forced to move from a Mountain hex onto a Land hex, you immediately take 1 damage due to falling. You don’t take damage if you voluntarily move off.  
+
+
+
+
+Special Terrain
+This terrain type varies by hex, with each hex featuring its own unique rules, effects, abilities, or conditions. Here are the Special Terrain hexes you may encounter during the game:
+  
+
+Lava  
+Lava hexes can be found or placed on a Battle Map via MonToon effects, abilities or conditions. When placing Lava, start by targeting a hex within range and clear Line of Sight of your MonToon. 
+
+
+Then, draw a squiggly line around all 6 edges of the targeted hex to indicate that it is now Lava. Once placed, Lava remains on the Battle Map and does not get erased unless it changes states.  
+
+
+You may place Lava on any occupied or unoccupied hex, except for Waystone or Void hexes. When entering Lava, you immediately take 2 damage. Lava hexes do NOT block Line of Sight and require only one movement to enter. 
+
+
+  
+
+Spike Pits  
+Spike Pits are the most deadly type of Special terrain and can be found on some Battle Maps. 
+
+
+When entering a Spike Pit hex, you immediately take 3 damage and end your movement in that hex. Spike Pit hexes do NOT block Line of Sight and require only one movement to enter. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Whirlpools    
+Whirlpool hexes let you teleport to different Whirlpool hexes around the Battle Map. 
+
+
+You may only enter Whirlpool hexes that are unoccupied by other MonToons. When entering a Whirlpool hex, you must immediately move to a different Whirlpool hex on the Battle Map of your choice.   
+
+
+After moving to the new Whirlpool hex, you may choose to end your move there, blocking access for other players, or continue moving. 
+
+
+Whirlpool hexes do NOT block Line of Sight, require only one movement to enter and are NOT considered Water hexes for all intensive purposes. 
+
+
+Quicksand   
+Quicksand is tough to maneuver and slows down your action economy. When entering or being moved into Quicksand by a rival, you must remove one assigned die from your Character Sheet with a value equal to or greater than the number shown on the Quicksand.  
+
+
+Quicksand hexes do NOT block Line of Sight and require only one movement to enter.
+
+
+
+
+Ice   
+Ice hexes can be found on some Battle Maps and lets you move to adjacent hexes if you’re willing to risk a bit of randomness and damage along the way. Ice hexes do NOT block Line of Sight and require only one movement to enter.   
+
+
+Each Ice hex displays either the letter 'O' (for odd numbers), the letter 'E' (for even numbers), or a single number on each of the inside edges of its hex. 
+
+
+These letters and numbers indicate the six possible directions you may move, depending on the result of a die roll that matches the displayed number or letter. When entering an Ice hex, you must roll a die. On an odd result, move to any adjacent hex with the letter 'O' on its edge. On an even result, move to any adjacent hex with the letter 'E' on its edge. If your rolled value matches a specific number on one of the edges, move to any adjacent hex with that number on its edge. 
+
+
+You can only move onto hexes you would normally be able to move onto and may not end your turn in an Ice hex. If moving off an Ice hex onto an Obstacle, you take 1 damage and stay in your current hex. Then, repeat the process above until you end your movement not in an ice hex. If you’ve taken 3 damage from bumping into Obstacles this way, you immediately move to an adjacent hex of your choice. 
+  
+
+  
+
+Blightwater
+Blightwater hexes are vats of contaminated water that have spread throughout the island. If you end a round in a Blightwater hex, you immediately take 1 Poison damage (See Status Effects, page 27).
+
+
+
+
+
+
+
+
+Obstacles
+This terrain type usually impedes movement, positioning and strategy, but varies, with each Obstacle featuring its own unique rules, effects, abilities, or conditions. Here are the various Obstacles you may encounter on your journey:  
+  
+
+Rocks & Boulders
+Rocks and Boulders are the most common Obstacles you will find on various Battle Maps. They block movement and allow you to tactically position yourself behind them. You cannot move on top of or land on Rock Obstacles and they   
+DO BLOCK Line of Sight. You take damage if being forced, thrown or pushed into Obstacles.
+
+
+If a hex with a Rock or Boulder has its 'state' changed (By placing lava on  that hex, etc.), the Rock or Boulder is removed from the hex, leaving it in the new state without the Rock or Boulder.
+
+
+  
+
+Waystones
+Waystones are large, glowing obelisks that are spread throughout the islands. These obelisks get supercharged during the Tidalmark and are sought by all MonToons for their powerful energy.   
+
+
+Visiting Waystones allow you to perform your Waystone Action, as long as that Waystone is Active. A Waystone is active when it has the Waystone token on top of its hex. There will always be at least one Active Waystone on the Battle Map at all times. 
+
+
+Each time a player successfully performs their Waystone Action, the Active Waystone will teleport to a different location on the Battle Map (see Waystone Movement, page 17). A Waystone hex cannot be moved over or landed on, nor can its state be altered or changed in any way. Additionally, you cannot place any Terrain or Obstacles on them and they DO BLOCK Line of Sight (LoS).
+
+
+
+
+Traps    
+Traps are only placed on Battle Maps via MonToon effects, abilities or conditions. When placing a Trap, start by targeting an unoccupied hex within range and clear Line of Sight (LoS) of your MonToon.
+
+
+Then, draw a triangle symbol on the targeted hex to indicate that it now has a Trap on it. When entering a hex containing a Trap, you immediately take 2 damage and erase the triangle symbol from the hex. That Trap is no longer on that hex. 
+
+
+Traps cannot be placed on Whirlpools, Spike Pits, or underneath other MonToons and they do NOT block Line of Sight (LoS). Placing a Trap Obstacle does NOT alter the ‘state’ of a hex.  
+
+
+Basic Attack Action
+You may only assign dice to one of the available Basic Attack actions on your Character Sheet. Each Character Sheet features up to 3 unique Basic Attacks you can use to inflict damage upon your rivals.   
+
+
+Some attacks show a horizontal or vertical line (see right). This line represents an either/or choice.   
+
+
+If a dice slot on your Basic Attack has a damage symbol above the numbers (See right), you may deal damage to the target(s) equal to the value of the die assigned (See Targeting & Declaring Targets below). 
+
+
+You must perform the full attack before taking another action. You cannot split up your attack with other actions. If there is no damage symbol in the dice slot, follow the ability text to the right for details on how to use that Basic Attack.   
+
+
+The Basic Attack on the right side of your Character Sheet will always show the symbol with two dice slots and an equal sign between them. This represents you needing to assign doubles to that Basic Attack (2 dice) in order to use it. A Basic Attack Action may also have a special ability, effect or condition to follow before, during or after resolving that action. Simply read and resolve the ability text as listed.
+
+
+NOTE: If you are unable to attack a target in range, no damage is dealt, but you may still activate any abilities listed for that attack.  
+
+
+(In the example on the right, you place a 2 on your Jabby Jab Basic Attack. You have no targets within range of 2, so you cannot deal any damage equal to your die. However, you placed a die with a value of 2, so you can still activate your secondary ability, placing up to 2 Traps in range of 2). 
+Targeting & Declaring Targets
+Throughout the game, you may be required to target MonToons or hexes when attacking or performing actions and abilities. Follow these rules when targeting and declaring targets. To declare your target(s), follow these steps in order:  
+
+
+1. Number of Target(s) - First, we need to see how many targets we can select. Look at the number next to the target symbol for the attack or ability you are using. If there is no targeting symbol, the default number of target(s) is 1. This number represents the number of targets you may select for that attack or ability. 
+
+
+2. Check Range - In order to target a player, they must be within the proper range of your attack or ability. You may target any number of players in range (including yourself) up to the number shown next to the target symbol. There are two types of range: Basic and Area of Effect (AoE).   
+  
+
+Basic Range - If your attack or ability shows the range symbol (See right), this is a Basic Range. Count a number of hexes in a straight hex row up to the number shown in the basic range symbol.
+
+
+If a player occupied any of the hexes you counted, they are within range and can be affected by the attack or ability.
+  
+
+(In this example on the right, Mike is playing Japili and uses an ability that targets up to 2 players in range of 2. Tala, Hoku and Japili are within range. Mike chooses to target Hoku and himself with the ability).
+
+
+
+
+
+
+  
+
+Area of Effect (AoE) - AoE attacks affect all players in the red hexes shown in the targeting icon of the attack or ability. The player applying the range is located in the black hex of the targeting icon. You may choose the exact orientation of the AoE when applying this type of range.   
+
+
+(In the right example, Tony applies this AoE effect as Hoku. With the orientation he chose, he can target Pele-E-Ne and Japili, but NOT Tala for this attack. If he changed the orientation, he could hit Pele-E-Ne and Tala, but NOT Japili). 
+
+
+   3. Check Line of Sight (LoS) - After selecting your targets, check if each target is within a clear Line of Sight (LoS) of you. A MonToon can only be targeted if there is an unobstructed straight row of hexes between the attacking MonToon and the target. This is referred to as the Line of Sight (LoS). 
+
+
+To determine if a target is in LoS, draw an imaginary straight line from the center of the attacking MonToon's hex to the center of the targeted MonToon's hex. 
+  
+
+This line must pass through the centers of all hexes directly between the attacking MonToon and the target without obstruction. Obstacles, Void hexes and other MonToons are considered obstructions and block LoS. 
+
+
+(In the example on the right, Emma is playing as Japili. To determine LoS, she checks each MonToon within range by drawing invisible lines from Japili’s hex to theirs. Both Molthu and Pele-E-Ne have a Clear LoS to Japili, while Hoku and Tala have obstructions in their path and do not have a Clear LoS to Japili).
+
+
+   4. Apply Damage & Effects - Once all targets have been selected, apply any damage, effects, abilities, or conditions to those targets according to the attack used. 
+
+
+  
+
+Taking Damage & Tracking Health
+When taking damage, you will cross off hearts from the Health section of your Character Sheet. For each point of damage taken, cross off one heart, proceeding left to right, highest to lowest. 
+
+
+If at any point you would heal or gain health, you will simply erase the crossed off hearts proceeding right to left, lowest to highest equal to the amount of health gained.    
+
+
+
+
+Gaining Golden Hearts
+If you cross off a Golden Heart while taking damage, you may immediately Mark the Waystone by crossing off one box anywhere on your Waystone grid. When crossing off boxes this way, you do NOT need to follow placement restrictions or be adjacent to an Active Waystone.  
+
+
+(In the example on the right, Andrew uses Japili’s Regrow Special Attack, giving 2 targets within a range of 2, 3 health. He targets himself, erasing 3 crossed-off hearts. He now has his Golden Heart available again. The next time he would take damage, he will be able to use that Golden Heart again).  
+
+
+
+
+
+
+
+
+
+
+Special Attack Action  
+Tired of hitting your rivals with just basic attacks? It’s time to try out your powerful Special Attacks! These Special Attacks act differently than your Basic Attacks. In order to use them, you need to first power them up during the Planning Phase. 
+
+
+You may only perform one Special Attack or Ultimate Attack on your turn.
+
+
+Each Character Sheet has two Special Attacks available to you and you can begin powering them up on your first turn (See Powering Up below). Once a Special Attack is fully powered-up, you can perform one of them to unleash havoc on your turn. 
+
+
+Each Special Attack has two rows of dice slots for you to assign dice to, allowing you to power up and use each Special Attack twice per game. 
+
+
+Powering Up 
+Each Special Attack has its own unique requirement or condition that must be met when assigning dice to them. The act of assigning dice to your Special Attacks is called “Powering Up”.   
+
+
+To power up a Special Attack, you may assign dice to any dice slot in any row for the attack, in any order during the Planning Phase. When assigning dice to power up your Special Attack, you must make sure that you’re following the specific placement requirements for that attack. 
+
+
+(For example, in the graphic above, you must write in numbers increasing in value from the left to right to power up Hoku’s Ride the Wave Special Attack).
+
+
+During the Action Phase on your turn, you will remove the dice assigned to your Special Attacks and record their values in the corresponding dice slots below. 
+
+
+Once you’ve fully powered up a Special Attack, mark that attack as “available” by tracing the dashed line next to it. A Special Attack is fully powered up when you’ve filled one row of dice slots, meeting its placement requirements. That dice row’s Special Attack is now available to use on that turn or on future turns.   
+
+
+(In the example on the right, Jonah has marked a full row of dice slots following the restrictions. He then circles the dashed circle to mark it as ‘available’. He can now use that attack).
+
+
+NOTE: You may assign dice to any dice slot, in any dice row, in any order. You do not need to assign them left to right or all at once in a single roll. 
+Ultimate Attack Action
+The Ultimate Attack on your Character Sheet is your MonToon’s strongest attack. You must power up your Ultimate Attack just like you would a Special Attack.  
+
+
+You may assign dice to power up your Ultimate Attack even if it is still locked. However, you cannot perform your Ultimate Attack until it has been Unlocked. You cannot perform both a Special Attack and an Ultimate Attack in the same turn, so choose wisely!
+
+
+Unlocking your Ultimate
+To unlock your ultimate, you must first completely surround a Waystone bonus when performing the Waystone Action. Once you’ve fully powered up an Ultimate Attack, mark that attack as “available” by tracing the dashed line next to it. An Ultimate Attack is fully powered up when you’ve crossed off an entire row of dice slots. That dice row’s Ultimate Attack is now available to use on that turn or on future turns. 
+
+
+NOTE: You can assign dice to your Ultimate Attack even if it isn’t unlocked yet. However, you 
+can’t use the attack until it is unlocked.
+
+
+Earning the Ultimate’s Waystone Bonus
+The best part about your Ultimate Attack is that if you successfully deal damage to another MonToon, you immediately earn one Waystone Bonus! Circle the next available Waystone Bonus to the right of your Waystone grid (See Earning & Gaining Bonuses on page 18).
+
+
+
+
+Waystone Action
+MonToons absorb powerful energy by 'Leaving their Mark' on the Waystones scattered across the isles. If at any point you would gain 4 Waystone bonuses, you unlock the Waystone's power—and win the game!  
+
+
+You can gain Waystone bonuses in one of two ways: 
+   1. Surrounding Waystone bonuses
+   2. Dealing damage with your Ultimate Attack
+
+
+Assigning Dice to your Waystone Action
+When assigning dice to this action, you do not need to be adjacent to a Waystone hex. However, you must be adjacent to an Active Waystone to Mark the Waystone. You may assign up to two dice to this action.
+
+
+NOTE: If you assigned dice to your Waystone Action, but another player would perform their Waystone Action first moving the Active Waystone out of reach, your assigned dice here become Unused Dice (see "Unused Dice" on page 7.
+
+
+
+
+To resolve your Waystone Action, your MonToon must first be adjacent to an Active Waystone on the Battle Map. Remember that an Active Waystone is a Waystone location with the Waystone token on it. For each die assigned to this action, you may cross off up to two boxes on your Waystone’s grid in any order, corresponding to the value of the assigned die, following placement restrictions (See Placement Restrictions below).
+
+
+(For example, if Becca assigns a 5 and a 6 to this action, they could cross off a 5, then a 6, then another 5 and finally another 6. Becca surrounds a single Waystone Bonus and earns their first Waystone Power).
+  
+
+Grid Placement Restrictions
+To Mark the Waystone, cross off boxes that are adjacent to any previously crossed-off box. Your Character Sheet will have 1-2 boxes already crossed off for you to use as starting points. In this game, diagonal boxes are considered adjacent.
+
+
+Once you’ve finished crossing off boxes, remove the assigned dice and check to see if you have surrounded any Bonuses. If you have, gain those Bonuses immediately (See below). 
+
+
+(In the example on the right, you have already crossed off a 2 and a 3 on your Waystone’s grid. You can now cross off any boxes with a green checkmark. You cannot cross off any boxes with a red X). 
+
+
+Waystone Movement  
+After any player successfully completes their Waystone Action, the Active Waystone must immediately move to a new location. To determine the new location, roll a 6-sided die.
+
+
+Then, move the Waystone Token from its current hex to the Waystone location that matches the number rolled. The Active Waystone cannot remain in its current location, so if you roll the same number as the current Waystone location, reroll until you get a different number.
+
+
+(For example, if you roll a 3, but the Active Waystone is already on Waystone Location #3, reroll until you get a new result. If you then roll a 6, move the Waystone Token the Waystone location #6, making it the new Active Waystone.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Earning & Gaining Bonuses
+Bonuses are special items that your MonToon gains to do a variety of powerful things throughout the game. You can earn Bonuses in one of 3 different ways:
+
+
+   * Assigning dice to Bonus dice slots
+   * Surrounding Bonuses on the Waystone
+   * Collecting them on the Battle Map
+
+
+Assigning dice to Bonus Dice Slots  
+Some dice slots on your Character Sheet contain Bonuses. These are called ‘Bonus Dice Slots’. During the Action Phase, when removing an assigned die from one of those slots, you immediately gain the listed Bonus.
+
+
+(In this example, Mike removed a die with a value of 6 from his Bonus Dice Slot containing a Shell Bonus. He immediately gains and can use that Shell Bonus).  
+
+
+
+
+Surrounding Bonuses on the Waystone
+If at any point you would surround a Bonus while Marking the Waystone, you may immediately gain that Bonus. A Bonus is surrounded when you have crossed off all boxes adjacent to that bonus. Remember that diagonal boxes are considered adjacent in this game. All bonuses in the middle require 4 boxes to be crossed-off, while bonuses on the edge require 2.
+
+
+
+
+Collecting Bonuses on the Battle Map  
+Each Battle Map in the game has hexes containing Bonuses. If a MonToon ends their movement on a hex with a Bonus—whether by resolving its own Movement Action or being moved there by another MonToon—it immediately gains that Bonus.
+
+
+When gaining a Bonus, you must first check to see what type of Bonus you’ve gained. There are 3 different types of Bonuses: Basic, Special and Waystone. Follow the rules below for each Bonus type to understand how to gain and use them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Bonuses  
+These are the most common types of Bonus in the game. There are 3 different types of Basic Bonuses: Shells, Berries and Hearts. 
+
+
+
+
+Shell Bonuses  
+These Bonuses allow you to adjust your die rolls—either increasing or decreasing them—to turn the tides in your favor throughout the game. Use them strategically! 
+
+
+To gain a Shell Bonus, trace the leftmost unmarked dashed line in either row of the Bonuses Section of your Character Sheet. This marks that shell as ‘available,’ meaning it can be used immediately or saved for a future turn. 
+
+
+During your Planning or Action Phases, you may cross off any number of available Shell Bonuses, from left to right, to increase or decrease the value of an action die by the amount shown next to each shell. You cannot increase a die past 6 or decrease a die below 1, or increase a die from a 6 to a 1.
+  
+
+NOTE: Once a Bonus has been crossed off, it cannot be used again.
+
+
+(Example: In this image, the left +1/-1 shell in the middle row has been crossed-off, allowing you to cross off the +2/-2 Shell Bonus).
+
+
+
+
+  
+  
+
+Berry Bonuses
+These Bonuses allow you to add additional damage to one of your attacks as a damage modifier. 
+  
+
+To gain a Berry Bonus, trace the leftmost unmarked dashed line in the Bonuses section of your Character Sheet for your Berry Bonuses. This marks the berry as ‘available,’ meaning it can be used immediately or saved for a future turn.
+  
+
+When using an attack during your Action Phase, you may cross off any number of available Berry Bonuses, from left to right, to add the amount listed as a damage modifier to that attack. 
+
+
+(For example: If Chuck targets Tala with Japili’s Regrow Special Attack, he gains 3 Health and inflicts 5 damage to Tala (who is Entangled). Chuck decides to cross off two Berry Bonuses, each providing +1 damage. This adds +2 to the total damage, so Tala now takes 7 damage instead of 5).
+
+
+NOTE: You cannot choose to add less damage than the Bonus you crossed off would provide. Example: If you cross off a +2 berry, you may not choose to only add +1.
+
+
+  
+  
+
+Heart Bonuses
+These Bonuses heal your MonToon by a number of hearts equal to the amount gained, up to your Character's maximum health. 
+
+
+Your maximum health is the highest heart value displayed in the Health section of your Character Sheet next to the rightmost black heart at the start of the game (See right; this MonToon’s maximum health is 18).  
+
+
+NOTE: You cannot exceed your Character’s maximum health.
+
+
+To gain a Heart Bonus, erase a single crossed-off heart, starting from right to left, from the lowest to highest value, until you’ve regained the number of hearts shown.
+  
+  
+
+
+
+(Example: On the right, Josie was at 13 health. After removing an assigned die from a Bonus Box, she gained 2 hearts. She erases two crossed-off hearts, bringing her back to full health at 15.)
+
+
+If you cross off your final heart, you are defeated in combat and immediately lose the game. Your rivals have bested you this time around, but come back swinging with a vengeance next time!
+
+
+Special Bonuses  
+These Bonuses are specifically used by some MonToons and can have a variety of different effects, abilities and conditions when gained or used. 
+
+
+To gain a Special Bonus, trace the leftmost unmarked dashed line in the Bonuses section of your Character Sheet for that type of Special Bonuses. This marks that Bonus as ‘available,’ and can be used immediately or saved for a future turn. 
+
+
+Every Special Bonus has different rules to how to gain and use them throughout the game. Refer to each MonToon's specific strategy guide for more information on their Special Bonuses if they have any.
+
+
+Waystone Bonuses  
+These Bonuses are the most powerful and vital in the game. Not only do they strengthen your MonToon over time as you Mark the Waystone, but collecting 4 of them will also grant you victory. 
+
+
+For each Waystone Bonus you surround while marking the Waystone, you gain exactly one Waystone Power. To gain a Waystone Power, cross off the next unavailable shape to the right of your Waystone Action, from top to bottom.
+
+
+Waystone Powers
+Waystone Powers make marking the Waystone easier over time as you absorb their powerful energy. Each Waystone Power grants a passive ability that remains permanently available to you for the rest of the game whenever you mark the Waystone. You gain Waystone Powers in this exact order (#1- #4). Their abilities also stack, meaning that as you gain more over time, all previously earned powers stay active. Here are the abilities of each Waystone Power gained:
+
+
+  
+
+Waystone Power #1  
+After gaining your first power, for each die assigned when performing your Waystone Action, you may cross off up to 3 BOXES PER DIE instead of 2. 
+
+
+The boxes you cross off must still match the corresponding die value and follow placement restrictions. You also UNLOCK your Ultimate Attack! 
+
+
+Cross off the unlock symbol next to your Ultimate Attack to show it's now available. You can use it immediately or save it for a future turn.
+
+
+
+
+Earning Waystone Power #2    
+After gaining this power, you can now cross off up to 3 boxes per die and you may ignore placement restrictions. The boxes you cross off must still match the corresponding die value.
+  
+
+
+
+(In the example on the right, Jonathan assigns a die with a value of 3
+to his Waystone Action. Since he has his second Waystone Power, 
+he may cross off three "3"s on his grid. This power allows him to 
+ignore placement restrictions for all three of them if he wants. 
+Jonathan crosses off two "3"s freely and the final "3" adjacent 
+to a previous crossed-off box.)
+
+
+
+
+Earning Waystone Power #3  
+Once you have earned your third Waystone Power, you may now cross off up to 3 boxes per die without needing to match the die’s value or follow placement restrictions.
+
+
+(In the example to the right, Micah has unlocked his third Waystone Power by dealing damage with his Ultimate Attack. He assigns a 1 and a 2 to his Waystone Action; however, the dice values no longer matter. He crosses off 6 boxes anywhere on his grid, earning his final Waystone Bonus and winning the game by completing the puzzle)!
+
+
+
+
+  
+
+Earning Waystone Power #4
+Once you have earned your fourth Waystone Power, you immediately win the game. If you are defeated in combat at the very moment you unlock your fourth Waystone Power, the past Chiefs of the Coral Isles bestow upon you the gift of immortality—granting you victory against all odds!
+  
+
+
+
+Unleashing your Ultimate Attack
+If you successfully deal damage to another MonToon with your Ultimate Attack, you immediately gain one Waystone Power. If you deal damage to multiple targets this way, you still only gain one Waystone Power.
+
+
+
+
+________________
+
+
+
+
+Keyword Abilities
+This game includes a wide range of keyword abilities, each with unique rules, effects, or conditions. Some keywords also involve applying specific Status Effects to you or your rivals (see Status Effects, Page 27). Below is a list of the universal keywords that all MonToons can have on their Character Sheets. 
+
+If your Character Sheet includes a keyword not found in this list, check that character’s strategy guide for details on how to play them and explanations of the keywords unique to them.
+
+
+Note: If a keyword ability has no numerical value next to it, its default value is 1. 
+
+
+
+
+Push  
+Target MonToon is moved directly away from the MonToon causing the push in a straight line up to X hexes where X is the indicated value. They must be in a direct straight line. MonToons are NOT affected by terrain movement restrictions when being pushed. 
+
+
+(For example, pushing MonToons over any terrain type requires only 1 movement to enter a hex; See the example shown below).
+
+
+The target will stop before entering a hex with another MonToon, Obstacle (except Traps), or the edge of the arena. If pushed or moved onto a Trap, they will activate that Trap immediately. If a MonToon cannot be pushed the full distance you choose for any reason, they take damage equal to the remaining distance. 
+
+
+If a MonToon is pushed into another MonToon, both MonToons immediately take 1 damage and are pushed directly away from the MonToon causing the push. If the target MonToon is not in the same hex row as the attacking MonToon when the push would be resolved, the push is ignored.
+  
+
+(In the example on the right, Nate uses Molthu’s Tentacle Whip attack to inflict PUSH 2 on Japili. Earlier in the game, Nate changed the state of Japili’s adjacent water hex to a lava hex. Nate pushes Japili through that lava hex and the Jungle hex, ending on that Jungle hex. Because PUSH moves Japili 1 hex at a time, they ignore movement restrictions for the Jungle. They take 2 
+damage from the lava hex and end in the jungle hex). 
+
+
+  
+
+
+
+
+
+(In this example, Nate uses Molthu’s Tentacle Whip 
+attack to inflict PUSH 2 on Japili. Since Japili cannot 
+move through Rock obstacles, they remain in their 
+current hex and take 2 damage, equal to the remaining distance they would have been pushed).
+
+
+
+
+
+
+________________
+
+
+
+
+Pull  
+Target MonToon is pulled directly towards the MonToon causing the pull in a straight line up to X hexes where X is the indicated value. They must stay in the same row of hexes. MonToons are NOT affected by terrain movement restrictions when being pulled. 
+
+
+The target will stop before entering a hex with another MonToon, Obstacle (except Traps), or the edge of the arena. If pulled or moved onto a Trap, they will activate that Trap immediately. If a MonToon cannot be pulled the full distance you choose for any reason, they take damage equal to the remaining distance. 
+  
+
+If a MonToon is pulled into another MonToon, both MonToons immediately take 1 damage and are pulled directly toward the MonToon causing the pull. 
+
+
+If a MonToon is pulled into the attacking MonToon, they take damage equal to the remaining PULL distance. If the target MonToon is not in the same hex row in clear line of sight as the attacking MonToon when the pull would be resolved, the pull is ignored.
+
+
+(Molthu inflicts PULL 2 on Japili. Earlier in the game, Molthu altered the state of the water hex to lava. Japili is pulled directly toward Molthu up to 2 spaces, moving into the lava hex first and taking 2 damage, then into a land hex with a Trap. Japili takes an additional 2 damage from the Trap, which is then removed from the battle map).
+Force  
+Target MonToon is forced in any direction up to X hexes where X is the indicated value. MonToons are NOT affected by terrain 
+movement restrictions when being forced. 
+
+
+The target will stop before entering a hex with another MonToon, Obstacle (except Traps), or the edge of the arena. If forced or moved onto a Trap, they will activate that Trap immediately. If a MonToon cannot be forced up to the full distance you choose for any reason, they take damage equal to the remaining distance. 
+  
+
+If a MonToon is forced into another MonToon, both MonToons immediately take 1 damage and are both forced in any direction of your choice equal to the remaining distance chosen. If the target MonToon is not in the same hex row as the attacking MonToon when the force would be resolved, the force is ignored.
+
+
+(In the example on the right, Wendy, using Japili, inflicts FORCE 4 on Hoku. Hoku is forced one space into a rock Obstacle, taking 1 damage, then into a Jungle hex, followed by another rock Obstacle, taking 1 more damage. Finally, Hoku is forced into a Spike Pit, where the force ends, inflicting an additional 3 damage for a total of 5 damage!)
+
+
+________________
+
+
+
+
+Throw  
+Target MonToon is thrown directly away from the MonToon causing the throw in any direction up to X hexes where X is the indicated value. When throwing, MonToons are NOT affected by terrain movement restrictions and can be thrown over Obstacles and other MonToons.   
+
+
+If a MonToon is thrown into an Obstacle, they immediately take 1 damage and move into a non-obstacle adjacent hex of your choice. If a MonToon is thrown into another MonToon, they both take 1 damage and the MonToon being thrown is moved into an adjacent hex of your choice. 
+
+
+If a MonToon lands on a hex that causes damage or one that triggers an effect, ability, or condition, that activation...", that activation occurs immediately. A MonToon cannot end their throw on a hex they normally couldn’t end their move on. (In the example on the right, Laken uses their THROW 4 ability on Hoku. They decide to throw Hoku over two rock Obstacles and into a Whirlpool. Hoku will then immediately move to a different Whirlpool of their choice).
+
+
+Jump  
+Jump is a movement keyword that lets you move up to X hexes in a straight line, where X is the indicated value. When jumping, ignore   
+any Obstacles, Terrain or MonToons between the starting and ending hexes. You may also be instructed to JUMP 
+a distance equal to the die value. 
+
+
+This functions like a regular movement value—move up to X hexes, where X is the die value assigned to the ability.If ending your jump on a hex that triggers an effect, ability, condition, or causes damage, that activation occurs immediately. 
+
+
+A MonToon cannot end their jump on a hex they normally couldn’t end their regular move on.
+
+
+(In the example above, Micah uses Hoku’s JUMP 5, moving Hoku to the land hex adjacent to the Spike Pit. Hoku avoids damage from the Obstacles and Molthu by passing over them.)
+
+
+Some MonToon abilities list only the Jump keyword without a specified value. In these cases, refer to the ability's specific rules to determine how that particular jump is resolved. 
+
+
+(In the same example, Japili’s Special Movement ability doesn’t specify a value, but instead allows Japili to JUMP to any Jungle hex on the Battle Map, taking 1 damage upon landing. Japili chooses to jump to the Jungle hex shown.)
+
+
+________________
+
+
+  
+
+Blitz
+Blitz is a unique movement attack that lets you move EXACTLY X hexes in a straight line, where X is the indicated value. 
+  
+
+You must stay in the same hex row at the start and end of your Blitz. You can only end your Blitz on a hex you normally would be able to end your movement on.
+
+
+Some MonToon abilities list only the Blitz keyword without a specified value, or just show a specific range of values. In these cases, refer to the ability's specific rules to determine how that particular Blitz is resolved. 
+  
+
+
+
+(In the example on the right, Pele-E-Ne’s ability says BLITZ 2-3. You could choose BLITZ 2, blitzing through Molthu and a Lava hex, ending on a land hex. You take 2 damage from the Lava, while Molthu takes 2 damage for the 2 hexes you blitzed through. Alternatively, you could BLITZ 3 to end on the Water hex and gain a Shell Bonus, but you still take 2 damage from the Lava).
+  
+
+While blitzing, all Terrain or Obstacles require only 1 Movement to enter, but you still take any damage associated with that Terrain or Obstacle. You ignore terrain effects. You CAN Blitz through Waystone locations and Whirlpools, but NOT through Void hexes.
+
+
+When blitzing through a MonToon, that MonToon takes damage equal to the total number of hexes you blitzed through—excluding your starting hex, but including the hex where you finish.
+
+
+If you can't Blitz the full distance due to reaching the edge of the Battle Map, you take damage equal to the remaining distance and stop on the hex next to the map's edge (see right).
+(In this example, David has a BLITZ ability of 3-4 and three options to consider. For Option 1, he can Blitz exactly 4 spaces forward, passing through a Whirlpool, Quicksand, and a Land hex with Molthu, ignoring the effects of both the Whirlpool and Quicksand. This would deal a total of 4 damage to Molthu. In Option 2, David could choose to Blitz through the Waystone location, ending on the Land hex, but he would take 1 damage for reaching the edge of the Battle Arena without completing the full Blitz distance. For Option 3, David could Blitz 3 spaces through the Land hex occupied by Japili, dealing 3 damage to Japili and ending on the Land hex adjacent to the Jungle hex).
+________________
+  
+
+Traps
+This keyword allows you to set tricky traps across the Battle Map, hindering your rivals' movement while dealing damage if they enter. To place a Trap, target an unoccupied hex within range and clear Line of Sight (LoS) from the MonToon placing it. Then, mark the targeted hex with a triangle symbol to indicate a Trap has been placed there.
+Traps can be placed on Basic, Difficult, and Special Terrain (unless otherwise specified), but not on Obstacles. They cannot be erased, moved, or manipulated, except by specific MonToon abilities or when a MonToon enters the hex containing a Trap. Traps do not stop movement, allowing MonToons to enter multiple Traps in a single turn. When a MonToon enters a Trap, they immediately take 2 damage and erase the triangle symbol from the hex. MonToons can take damage from their own Traps.  
+Note: Placing a Trap does not alter the state of the Terrain.
+(Japili places up to 3 Traps within range 2 and uses an ability to FORCE 3 another rival within range 2, ignoring LoS. Japili forces Tala into the first hex with a Trap, dealing 2 damage and erasing it. Tala is then forced into a Quicksand hex with another Trap, taking 2 more damage and ending in the Quicksand hex).
+Status Effects
+The game features a variety of Status Effects, each with its own unique rules, effects, and conditions that impact gameplay in different ways. When you see the term "inflicting," it means your rival is gaining the specified status effect. If you see "gaining," it means you are acquiring the listed status effect. 
+
+
+If your Character Sheet includes a status effect not listed here, refer to the character’s strategy guide for details and explanations for what they are and how to use them.
+
+
+You keep track of Status Effects in your Status Effects Bar on the bottom of your Character Sheet. When gaining a Status Effect, cross-off the box next to the symbol for that effect to indicate you have it. (The MonToon in the example below has been inflicted with Stun. They cross-off the box containing the Stun symbol to indicate they are stunned).
+  
+
+There are two different types of Status Effects: Temporary and Persistent. Below is a list of the universal Status Effects that all MonToons may gain or inflict throughout the game.
+
+
+________________
+
+
+
+
+Temporary Status Effects
+Temporary Status Effects are resolved and removed at specific points in the game, depending on the type of effect inflicted or gained.
+
+
+
+
+Entangle  
+This Status Effect reduces a MonToons total movement by 1 during their NEXT Movement Action. Entangle does NOT affect any secondary effects of that action. 
+
+
+When gaining Entangle, cross-off the box next to the Entangle symbol in your Status Effects Bar. After completing your next Movement Action, erase the crossed-off box to indicate you are no longer entangled. Entangle does NOT stack. If you are already entangled, you cannot gain Entangle again. Your Entangle’s movement reduction will only ever be 1 (Unless otherwise specified). 
+  
+
+Entangle does NOT apply to movement abilities that move you to specific hexes on the Battle Map For example, if you JUMP to a Lava hex, Entangle won't apply and the Entangle box remains crossed off). Entangle ONLY applies to your Movement Action; Abilities like BLITZ are only reduced if it is a part of your Movement Action.
+  
+
+
+
+
+
+(In this example, Japili's ability targets a MonToon within 2 hexes and inflicts them with Entangle. Chad, playing Pele-E-Ne, has a die value of 5 assigned to his Movement Action. He can either use his normal Movement, which would be limited to the land hex shown due to Entangle, or use his BLITZ 3 ability to Blitz through the Waystone 
+and water hex, ending on the land hex indicated).
+
+
+
+
+
+
+
+
+________________
+
+
+
+
+Stun  
+This Status Effect forces you to roll one less action die during your NEXT Planning Phase. When gaining Stun, cross-off the box next to the Stun symbol in your Status Effects Bar. 
+
+
+Stun does NOT stack. If you're already stunned, you cannot gain Stun again. While stunned, you will roll one fewer action die (unless specified otherwise).  
+At the end of the turn after you gain Stun, erase the crossed-off box to indicate you're no longer stunned. Some MonToon abilities provide special benefits while you are stunned.
+
+
+________________
+
+
+
+
+Guard  
+This Status Effect reduces the total incoming damage from each attack you take by 1 until the START of your next Action Phase. When gaining Guard, cross-off the box next to the Guard symbol in your Status Effects Bar. 
+  
+
+If an attack or ability has multiple effects dealing damage to you, the total incoming damage from that attack or ability will be reduced by 1, not each instance of damage. 
+  
+
+Guard does NOT stack. If you already have Guard, you cannot gain Guard again. Guard will only ever reduce incoming damage by 1 (unless specified otherwise).
+
+
+(In the example on the right, Tala starts their Action Phase by using the Stun Gust basic attack, dealing 3 damage. However, Japili's Guard reduces the damage to 2. Tala then uses their basic movement attack, which allows them to deal 2 damage to any MonToon they move through. As Tala moves through Japili and onto the Land hex with the Berry Bonus, Japili’s Guard again reduces the damage, leaving them with only 1 damage instead of 2).
+
+
+________________
+
+
+
+
+Focus  
+This unique Status Effect allows you to leave dice unassigned during the Planning Phase to add extra damage as attack modifiers when you attack in your next turn’s Action Phase.
+
+
+To gain Focus, you must first assign one action die to either of the Focus dice slots on your Character Sheet for each instance of Focus you want to gain during your Action Phase.
+
+
+(For example, if I use two abilities that grant Focus during my Action Phase, I must assign 2 dice to my Focus dice slots during the Planning Phase, as I need to remove one die from a slot for each instance of Focus I gain).
+
+
+When using an action or ability that grants Focus, remove one die from a Focus dice slot. Then, check the value listed next to the Focus keyword (or use 1 if no value is specified).
+
+
+Write this value in one of the Focus Boxes in your Status Effects Bar. If the chosen Focus Box already contains a number, erase it, add the new Focus value to that number, and write the updated total in the box. If both Focus Boxes already contain numbers, you may split the new value between them as you choose.
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+(In the example above, Lucy already has a 3 and a 1 in her Focus Boxes. She uses an ability that allows her to FOCUS 3. First, she removes a die from her Focus Dice Slot, then erases both numbers in her Focus Boxes in the Status Effects Bar. She decides to place a 1 in the Focus Box on the left and a 2 in the Focus Box on the right.)
+When resolving your FIRST ATTACK on your next Action Phase, you may erase a number from either Focus Box and add its full value as an attack modifier to that attack. You must use the full value.
+
+
+If you do NOT resolve an attack action on your turn, erase one of the numbers in either of your Focus Boxes. You will need to gain Focus again in order to add a new value in that box. 
+
+
+________________
+
+
+
+
+Persistent Status Effects
+Persistent Status Effects remain marked in your Status Effects Bar until a condition has been fulfilled. 
+
+
+  
+
+Burn
+Burn inflicts X damage to you at the end of your turn, where X is equal to the Burn value written in your Status Effects Bar. 
+
+
+When you gain Burn, first check the Burn value listed next to the attack, action, or ability causing it (or use a value of 1 if none is specified). Then, to indicate you are burned, write that value in the box next to the Burn symbol in your Status Effects Bar. This value indicates the amount of damage you will take. 
+
+
+If you end your movement in a Water hex, you may immediately erase the Burn value and are no longer burned. At the end of your turn, if you do not end in a water hex, you take damage equal to the Burn Value written. 
+
+
+Burn DOES stack. If you are already affected by Burn and receive another Burn effect, erase the current Burn value, then add the new Burn value to the erased amount.
+  
+  
+
+
+
+(In this example, Aimee's character Pele-E-Ne inflicts BURN 3 on Tim’s character Molthu. Tim can avoid the 3 damage by ending his turn on the Water hex shown, so he uses his Basic Movement Action to reach it. At the end of his turn, he erases the 3 from his Status Effects Bar. He could, however, choose to not end his turn in a Water hex. If he did, he would take 3 damage and the 3 would remain in the box).
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Credits
+
+
+Game Design & Development - Andrew Delacruz, Devon Mettlin
+Artwork & Illustration - Chris Beck, Eric Streed
+Graphic Design - Chris Beck, Devon Mettlin
+STL Modeling - Kevin Levy
+Lore Writing - Zane Messina
+
+Legend Playtesters - Matthew Byrd, Katie Andrews, David Wagner, Mike Pellechia
+Playtesters - Ryan Fabbro, Zachary Sullivan, Kristen Mott, Spencer Sanders, Spencer Bain
+Special Thanks to: BoardGameHype Community, Board Game Design Lab Community
+
+
+
+
+… and of course… Thank You to Our Incredible Backers!
+
+
+We cannot thank our backers enough for your incredible support and enthusiasm. You made this journey possible and it’s because of you that this game has come to life. Your belief in our vision means the world to us and we’re so grateful to each and every one of you.
+
+
+A special, heartfelt thank you goes out to our amazing wives, Elizabeth Mettlin and Wendy Delacruz. You have been with us every step of the way, offering endless support, encouragement and patience. From late-night brainstorming sessions to playtesting every new version of the game, your unwavering support made this dream a reality.
+
+
+Thank you for believing in us and being our partners in this journey. We’re so grateful to share this moment with all of you!
+
+
+
+
+If you have any rules questions, or don’t quite understand something, please reach out via Discord, Facebook or BGG and your question(s) will be answered ASAP. I will also have videos on gameplay, keywords, status effects, character guides, mechanics and more coming soon on our YouTube channel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix
+
+
+Basic Terrain
+   * Land - Requires 1 movement to enter. Does not block Range or Line of Sight.
+
+
+   * Meadow - Requires 1 movement to enter. Does not block Range or Line of Sight.
+
+
+Difficult Terrain 
+   * Water - Requires 2 movement to enter. Does not block Line of Sight (LoS).
+
+
+   * Jungle - Requires 2 movement to enter. Does not block Line of Sight (LoS).
+
+
+   * Mountain - Requires 2 movement to enter. Does block Line of Sight (LoS).
+
+
+Special Terrain
+
+
+   * Lava - Target a hex within range and Clear Line of Sight (LoS). Draw a squiggly line around that hex's edges to indicate it is now Lava. When entering, take 2 damage. Lava can be placed under MonToons, but not on Waystone locations or Void hexes. Does not block Line of Sight (LoS).
+
+
+   * Spike Pit - When entering, take 3 damage and movement ends. Does not block Line of Sight (LoS).
+
+
+   * Whirlpools - When entering, immediately move to a different Whirlpool on the map. You can end there or continue moving. Requires 1 movement to enter. If occupied, other MonToons cannot enter that Whirlpool. Does not block Line of Sight (LoS).
+
+
+Obstacles
+
+
+   * Waystones - When adjacent to an active Waystone, you can perform the Waystone Action. Cannot be moved through or landed on. Its state cannot change and Obstacles cannot be placed on them. Does block Line of Sight (LoS). After leaving your mark on the Waystone, it moves to a different location. 
+
+
+   * Rocks/Boulders - Cannot be moved on or landed on. Does block Line of Sight (LoS). 
+
+
+   * Trap - Target a hex within range and Clear Line of Sight (LoS). Draw a triangle symbol on that hex to indicate it contains a Trap. Can be placed on Basic, Difficult and Special Terrain, but not on Obstacles or under MonToons. Cannot be erased, moved, or manipulated by abilities unless otherwise specified. When entering, take 2 damage and erase the triangle symbol from the map. Does not stop movement. Does not block Line of Sight (LoS). MonToons can activate their own Traps.
+
+
+
+
+
+
+
+
+
+
+Temporary Status Effects
+
+
+   * Entangle - Reduces your total movement by 1 during your next Movement Action. Does not stack. 
+
+
+   * Stun - Set aside and roll 1 less action die during your next Planning Phase. Does not stack.
+
+
+   * Guard - Reduces total incoming damage from each attack received by 1 until the start of your next turn. If an attack or ability has multiple damage effects, total damage is reduced by 1, not each instance of damage. Does not stack. 
+   * Focus - Assign a die to a Focus dice slot during the Planning Phase for each instance of Focus you want to gain. During your Action Phase, remove a die from a slot when using a Focus ability, then record its value in a Focus Box. If a box already has a value, add or split the new value as needed. On the first attack on your next turn, erase one of the numbers in a Focus box and add that to your damage as an attack modifier. 
+
+
+Persistent Status Effects
+
+
+   * Burn - At the end of your turn, take damage equal to the Burn value in your Status Effects Bar. To gain Burn, write the Burn value from the effect in the Burn box. Ending movement in a Water hex immediately erases Burn. Burn stacks—if you gain Burn again, combine the new value with the current one.
+
+
+Keyword Abilities
+
+
+   * Push - Target is pushed in a straight line up to X hexes in the same hex row away from you. Terrain movement restrictions do not apply, but the push stops before entering a hex with another MonToon, Obstacle (except Traps), or the arena edge. Take damage equal to the remaining distance if can’t be pushed the full distance. If pushed into another MonToon, both take 1 damage and are pushed away from the source of the push. 
+
+
+   * Pull - Target is pulled in a straight line up to X hexes in the same hex row towards you. Terrain movement restrictions do not apply, but the push stops before entering a hex with another MonToon, Obstacle (except Traps), or the arena edge. Take damage equal to the remaining distance if can’t be pulled the full distance. If pulled into another MonToon, both take 1 damage and are pulled towards the source of the pull. 
+
+
+   * Force - Target is forced in any direction up to X hexes where X is the indicated value. Terrain movement restrictions do not apply, but the force stops before entering a hex with another MonToon, Obstacle (except Traps), or the arena edge. 
+
+
+   * Throw - Target is thrown in any direction up to X hexes where X is the indicated value. Terrain movement restrictions, Obstacles and other MonToons are ignored when throwing. Take 1 damage if thrown into an Obstacle, then move to an adjacent hex of your choice. If thrown into a MonToon, both MonToons take 1 damage and are moved to adjacent hexes of your choice. Cannot end the throw on a hex you can’t normally end your movement on.
+
+
+   * Blitz - Move exactly X hexes in a straight line, where X is the indicated value.  Terrain movement restrictions, Obstacles and other MonToons are ignored when blitzing. You will still take any damage associated with Terrain or Obstacles. Ignore terrain effects. Cannot end your Blitz on a hex you can’t normally end your movement on. When blitzing through a MonToon, that MonToon takes damage equal to the total number of hexes you blitzed through—excluding your starting hex, but including the hex where you finish.If you can't Blitz the full distance due to reaching the edge of the Battle Map, you take damage equal to the remaining distance and stop on the hex next to the map's edge.
+
+
+   * Jump - Move up to X hexes in a straight line in the same hex row, where X is the indicated value. Terrain movement restrictions, Obstacles and other MonToons are ignored when jumping between the starting and ending hexes. If ending your jump on hex that triggers an effect, ability, condition, or causes damage, that happens immediately. Cannot end your Jump on a hex you can’t normally end your movement on.
+
+
+   * Traps - Target an unoccupied hex within range and clear LoS. Draw a triangle symbol on that hex. Can be placed on Basic, Difficult and Special Terrain, but not Obstacles. Does not stop movement. When entering, take 2 damage and erase the triangle symbol from the hex. MonToons can take damage from their own Traps. Cannot be erased, moved, or manipulated, except by specific MonToon abilities or when a MonToon enters the hex containing a Trap.

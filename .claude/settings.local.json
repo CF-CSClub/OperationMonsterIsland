@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__godot-mcp__create_script",
+      "mcp__godot-mcp__create_scene",
+      "mcp__godot-mcp__open_scene",
+      "mcp__godot-mcp__create_node",
+      "mcp__godot-mcp__get_current_scene",
+      "mcp__godot-mcp__list_nodes",
+      "Bash(ls:*)"
+    ]
+  }
+}
