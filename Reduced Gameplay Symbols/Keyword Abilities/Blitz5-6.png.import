@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b82db82nh3so2"
-path="res://.godot/imported/Blitz5-6.png-52b61cce230f1f79e1af0ab52e6024d4.ctex"
+path="res://.godot/imported/Blitz5-6.png-5b1bc078dd8fb793ed925b29a5c4f3d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Gameplay Symbols/Keyword Abilities/Blitz5-6.png"
-dest_files=["res://.godot/imported/Blitz5-6.png-52b61cce230f1f79e1af0ab52e6024d4.ctex"]
+source_file="res://Reduced Gameplay Symbols/Keyword Abilities/Blitz5-6.png"
+dest_files=["res://.godot/imported/Blitz5-6.png-5b1bc078dd8fb793ed925b29a5c4f3d3.ctex"]
 
 [params]
 

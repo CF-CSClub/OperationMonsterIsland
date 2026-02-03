@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://66p3vs7dxrsj"
-path="res://.godot/imported/Push.png-46837e59f014d54bc2e63df33c7c396b.ctex"
+path="res://.godot/imported/Push.png-5ec7bdfa14c1ccbe9aa0d57962a22019.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Gameplay Symbols/Keyword Abilities/Push.png"
-dest_files=["res://.godot/imported/Push.png-46837e59f014d54bc2e63df33c7c396b.ctex"]
+source_file="res://Reduced Gameplay Symbols/Keyword Abilities/Push.png"
+dest_files=["res://.godot/imported/Push.png-5ec7bdfa14c1ccbe9aa0d57962a22019.ctex"]
 
 [params]
 

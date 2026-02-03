@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcqxu87abai88"
-path="res://.godot/imported/Throw3.png-f95145a2ba6c241dfa9e4cd7b46e74e6.ctex"
+path="res://.godot/imported/Throw3.png-8879aefaa85372e9d22858f5db963729.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Gameplay Symbols/Keyword Abilities/Throw3.png"
-dest_files=["res://.godot/imported/Throw3.png-f95145a2ba6c241dfa9e4cd7b46e74e6.ctex"]
+source_file="res://Reduced Gameplay Symbols/Keyword Abilities/Throw3.png"
+dest_files=["res://.godot/imported/Throw3.png-8879aefaa85372e9d22858f5db963729.ctex"]
 
 [params]
 

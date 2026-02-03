@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b142vlu3xhx2w"
-path="res://.godot/imported/Decoy.png-57c7b99ecdaa3e93bf4f3f7a521a81ad.ctex"
+path="res://.godot/imported/Decoy.png-4f5b4ad8920e4b4903f987860dd4efe5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Gameplay Symbols/Keyword Abilities/Decoy.png"
-dest_files=["res://.godot/imported/Decoy.png-57c7b99ecdaa3e93bf4f3f7a521a81ad.ctex"]
+source_file="res://Reduced Gameplay Symbols/Keyword Abilities/Decoy.png"
+dest_files=["res://.godot/imported/Decoy.png-4f5b4ad8920e4b4903f987860dd4efe5.ctex"]
 
 [params]
 

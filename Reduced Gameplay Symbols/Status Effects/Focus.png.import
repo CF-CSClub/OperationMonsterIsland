@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3a413fole75x"
-path="res://.godot/imported/KeywordAbilities_SpriteSheet.png-232d977518c1c265de814aa751a851ec.ctex"
+uid="uid://54cbcbc30uen"
+path="res://.godot/imported/Focus.png-629bf26c31f395d90e4beb3750e77226.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://KeywordAbilities_SpriteSheet.png"
-dest_files=["res://.godot/imported/KeywordAbilities_SpriteSheet.png-232d977518c1c265de814aa751a851ec.ctex"]
+source_file="res://Reduced Gameplay Symbols/Status Effects/Focus.png"
+dest_files=["res://.godot/imported/Focus.png-629bf26c31f395d90e4beb3750e77226.ctex"]
 
 [params]
 

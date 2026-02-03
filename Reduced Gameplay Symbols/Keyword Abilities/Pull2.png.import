@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpd4p5esooi77"
-path="res://.godot/imported/Pull2.png-f687c0b620aeb890a0ddd8c927ec3411.ctex"
+path="res://.godot/imported/Pull2.png-5b7c1d17821071b2d8f4a91c28e43ed2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Gameplay Symbols/Keyword Abilities/Pull2.png"
-dest_files=["res://.godot/imported/Pull2.png-f687c0b620aeb890a0ddd8c927ec3411.ctex"]
+source_file="res://Reduced Gameplay Symbols/Keyword Abilities/Pull2.png"
+dest_files=["res://.godot/imported/Pull2.png-5b7c1d17821071b2d8f4a91c28e43ed2.ctex"]
 
 [params]
 

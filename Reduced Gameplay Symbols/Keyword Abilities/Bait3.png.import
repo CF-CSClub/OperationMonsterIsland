@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7po0chfdqb6n"
-path="res://.godot/imported/Bait3.png-fc96a3212510b803d1b7490f929ba125.ctex"
+path="res://.godot/imported/Bait3.png-c831c493f7fdd6b264568bdfb5936cb7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Gameplay Symbols/Keyword Abilities/Bait3.png"
-dest_files=["res://.godot/imported/Bait3.png-fc96a3212510b803d1b7490f929ba125.ctex"]
+source_file="res://Reduced Gameplay Symbols/Keyword Abilities/Bait3.png"
+dest_files=["res://.godot/imported/Bait3.png-c831c493f7fdd6b264568bdfb5936cb7.ctex"]
 
 [params]
 

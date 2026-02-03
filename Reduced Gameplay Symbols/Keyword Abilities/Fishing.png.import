@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ducqfovlq275d"
-path="res://.godot/imported/Fishing.png-9d52c14b5152d1de9c5707c89b490415.ctex"
+path="res://.godot/imported/Fishing.png-a317987bde0e307a10f0388f812bb04d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Gameplay Symbols/Keyword Abilities/Fishing.png"
-dest_files=["res://.godot/imported/Fishing.png-9d52c14b5152d1de9c5707c89b490415.ctex"]
+source_file="res://Reduced Gameplay Symbols/Keyword Abilities/Fishing.png"
+dest_files=["res://.godot/imported/Fishing.png-a317987bde0e307a10f0388f812bb04d.ctex"]
 
 [params]
 

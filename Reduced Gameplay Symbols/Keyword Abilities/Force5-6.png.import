@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://64m3hhf2qjov"
-path="res://.godot/imported/Force5-6.png-730508c3d95a67339df8d580b3a00243.ctex"
+path="res://.godot/imported/Force5-6.png-711310a033fb62b42c947bf8348df339.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Gameplay Symbols/Keyword Abilities/Force5-6.png"
-dest_files=["res://.godot/imported/Force5-6.png-730508c3d95a67339df8d580b3a00243.ctex"]
+source_file="res://Reduced Gameplay Symbols/Keyword Abilities/Force5-6.png"
+dest_files=["res://.godot/imported/Force5-6.png-711310a033fb62b42c947bf8348df339.ctex"]
 
 [params]
 

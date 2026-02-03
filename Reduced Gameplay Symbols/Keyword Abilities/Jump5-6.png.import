@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnm1njj3ufpj3"
-path="res://.godot/imported/Jump5-6.png-8ada1758458a61a88789909eaefb8c4a.ctex"
+path="res://.godot/imported/Jump5-6.png-3f9455b5edda4b401d36fc3fafc0b9be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Gameplay Symbols/Keyword Abilities/Jump5-6.png"
-dest_files=["res://.godot/imported/Jump5-6.png-8ada1758458a61a88789909eaefb8c4a.ctex"]
+source_file="res://Reduced Gameplay Symbols/Keyword Abilities/Jump5-6.png"
+dest_files=["res://.godot/imported/Jump5-6.png-3f9455b5edda4b401d36fc3fafc0b9be.ctex"]
 
 [params]
 
