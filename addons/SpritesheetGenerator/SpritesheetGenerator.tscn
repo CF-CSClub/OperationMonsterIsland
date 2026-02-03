@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://bf3b0i8scthbm"]
+[gd_scene format=3 uid="uid://bf3b0i8scthbm"]
 
 [ext_resource type="Texture2D" uid="uid://bnkl8rujlgv0h" path="res://addons/SpritesheetGenerator/Checker.png" id="1_hs1uu"]
 
@@ -397,7 +397,7 @@ texture = ExtResource("1_hs1uu")
 axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
 
-[node name="Main" type="HBoxContainer"]
+[node name="Main" type="HBoxContainer" unique_id=1952062945]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -406,112 +406,112 @@ grow_vertical = 2
 mouse_filter = 2
 script = SubResource("1")
 
-[node name="MarginContainer" type="PanelContainer" parent="."]
+[node name="MarginContainer" type="PanelContainer" parent="." unique_id=1795139640]
 layout_mode = 2
 theme_override_styles/panel = SubResource("5")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=550400066]
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="Label5" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="Label5" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1455739446]
 layout_mode = 2
 text = "Alpha Threshold"
 horizontal_alignment = 1
 
-[node name="Threshold" type="SpinBox" parent="MarginContainer/VBoxContainer"]
+[node name="Threshold" type="SpinBox" parent="MarginContainer/VBoxContainer" unique_id=804272540]
 unique_name_in_owner = true
 layout_mode = 2
 max_value = 1.0
 step = 0.005
 value = 0.9
 
-[node name="Reload" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="Reload" type="Button" parent="MarginContainer/VBoxContainer" unique_id=922127912]
 unique_name_in_owner = true
 layout_mode = 2
 disabled = true
 text = "Reload"
 
-[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=759456613]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer" unique_id=562134640]
 layout_mode = 2
 text = "Columns"
 horizontal_alignment = 1
 
-[node name="Columns" type="SpinBox" parent="MarginContainer/VBoxContainer"]
+[node name="Columns" type="SpinBox" parent="MarginContainer/VBoxContainer" unique_id=1614590626]
 unique_name_in_owner = true
 layout_mode = 2
 min_value = 1.0
 value = 1.0
 editable = false
 
-[node name="Grid" type="CheckButton" parent="MarginContainer/VBoxContainer"]
+[node name="Grid" type="CheckButton" parent="MarginContainer/VBoxContainer" unique_id=639531630]
 layout_mode = 2
 button_pressed = true
 text = "Auto"
 
-[node name="Label3" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="Label3" type="Label" parent="MarginContainer/VBoxContainer" unique_id=173946180]
 layout_mode = 2
 text = "Horizontal Margin"
 horizontal_alignment = 1
 
-[node name="MarginH" type="SpinBox" parent="MarginContainer/VBoxContainer"]
+[node name="MarginH" type="SpinBox" parent="MarginContainer/VBoxContainer" unique_id=688419252]
 layout_mode = 2
 value = 1.0
 suffix = "px"
 
-[node name="Label4" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="Label4" type="Label" parent="MarginContainer/VBoxContainer" unique_id=404816059]
 layout_mode = 2
 text = "Vertical Margin"
 horizontal_alignment = 1
 
-[node name="MarginV" type="SpinBox" parent="MarginContainer/VBoxContainer"]
+[node name="MarginV" type="SpinBox" parent="MarginContainer/VBoxContainer" unique_id=1153340625]
 layout_mode = 2
 max_value = 128.0
 value = 1.0
 suffix = "px"
 
-[node name="Stash" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="Stash" type="Button" parent="MarginContainer/VBoxContainer" unique_id=257476297]
 unique_name_in_owner = true
 layout_mode = 2
 disabled = true
 text = "Image Stash"
 
-[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=726759647]
 layout_mode = 2
 
-[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer" unique_id=731616112]
 layout_mode = 2
 text = "Recenter View
 "
 
-[node name="DisplayGrid" type="CheckBox" parent="MarginContainer/VBoxContainer"]
+[node name="DisplayGrid" type="CheckBox" parent="MarginContainer/VBoxContainer" unique_id=993682492]
 unique_name_in_owner = true
 layout_mode = 2
 button_pressed = true
 text = "Show Grid"
 
-[node name="HSeparator3" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=2045266365]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=2131111943]
 layout_mode = 2
 
-[node name="CustomName" type="LineEdit" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="CustomName" type="LineEdit" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=190121185]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
 placeholder_text = "Image Name"
 
-[node name="SavePNG" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="SavePNG" type="Button" parent="MarginContainer/VBoxContainer" unique_id=970611485]
 unique_name_in_owner = true
 layout_mode = 2
 disabled = true
 text = "Save PNG"
 
-[node name="Status" type="Label" parent="."]
+[node name="Status" type="Label" parent="." unique_id=905281984]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -527,10 +527,10 @@ If you drop a single image, the generator will instead edit it as spritesheet."
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="View" type="CanvasLayer" parent="."]
+[node name="View" type="CanvasLayer" parent="." unique_id=89314441]
 layer = -1
 
-[node name="CenterContainer" type="CenterContainer" parent="View"]
+[node name="CenterContainer" type="CenterContainer" parent="View" unique_id=1203399852]
 unique_name_in_owner = true
 visible = false
 anchors_preset = 15
@@ -540,20 +540,20 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 
-[node name="Background" type="ColorRect" parent="View/CenterContainer"]
+[node name="Background" type="ColorRect" parent="View/CenterContainer" unique_id=537430523]
 unique_name_in_owner = true
 layout_mode = 2
 mouse_filter = 1
 color = Color(0, 0.501961, 0.501961, 1)
 
-[node name="GridContainer" type="GridContainer" parent="View/CenterContainer"]
+[node name="GridContainer" type="GridContainer" parent="View/CenterContainer" unique_id=1219090865]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_constants/h_separation = 0
 theme_override_constants/v_separation = 0
 columns = 3
 
-[node name="VBoxContainer" type="GridContainer" parent="View"]
+[node name="VBoxContainer" type="GridContainer" parent="View" unique_id=930111468]
 anchors_preset = 3
 anchor_left = 1.0
 anchor_top = 1.0
@@ -566,45 +566,45 @@ grow_vertical = 0
 mouse_filter = 2
 columns = 3
 
-[node name="Label" type="Label" parent="View/VBoxContainer"]
+[node name="Label" type="Label" parent="View/VBoxContainer" unique_id=1437405613]
 layout_mode = 2
 text = "LMB"
 horizontal_alignment = 1
 
-[node name="VSeparator" type="VSeparator" parent="View/VBoxContainer"]
+[node name="VSeparator" type="VSeparator" parent="View/VBoxContainer" unique_id=1312843841]
 layout_mode = 2
 
-[node name="Label2" type="Label" parent="View/VBoxContainer"]
+[node name="Label2" type="Label" parent="View/VBoxContainer" unique_id=857129306]
 layout_mode = 2
 text = "rearrange images"
 
-[node name="Label3" type="Label" parent="View/VBoxContainer"]
+[node name="Label3" type="Label" parent="View/VBoxContainer" unique_id=463730935]
 layout_mode = 2
 text = "RMB"
 horizontal_alignment = 1
 
-[node name="VSeparator2" type="VSeparator" parent="View/VBoxContainer"]
+[node name="VSeparator2" type="VSeparator" parent="View/VBoxContainer" unique_id=1102310977]
 layout_mode = 2
 
-[node name="Label4" type="Label" parent="View/VBoxContainer"]
+[node name="Label4" type="Label" parent="View/VBoxContainer" unique_id=952536261]
 layout_mode = 2
 text = "delete images"
 
-[node name="Label5" type="Label" parent="View/VBoxContainer"]
+[node name="Label5" type="Label" parent="View/VBoxContainer" unique_id=539103424]
 layout_mode = 2
 text = "MMB"
 horizontal_alignment = 1
 
-[node name="VSeparator3" type="VSeparator" parent="View/VBoxContainer"]
+[node name="VSeparator3" type="VSeparator" parent="View/VBoxContainer" unique_id=1839254124]
 layout_mode = 2
 
-[node name="Label6" type="Label" parent="View/VBoxContainer"]
+[node name="Label6" type="Label" parent="View/VBoxContainer" unique_id=307839706]
 layout_mode = 2
 text = "pan view"
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1462230883]
 
-[node name="Error" type="Label" parent="CanvasLayer"]
+[node name="Error" type="Label" parent="CanvasLayer" unique_id=1164510693]
 unique_name_in_owner = true
 modulate = Color(1, 0, 0, 1)
 anchors_preset = 12
@@ -617,34 +617,34 @@ grow_vertical = 0
 size_flags_vertical = 0
 horizontal_alignment = 1
 
-[node name="Timer" type="Timer" parent="CanvasLayer"]
+[node name="Timer" type="Timer" parent="CanvasLayer" unique_id=531931329]
 unique_name_in_owner = true
 wait_time = 5.0
 one_shot = true
 
-[node name="SplitDialog" type="ConfirmationDialog" parent="."]
+[node name="SplitDialog" type="ConfirmationDialog" parent="." unique_id=1050263662]
 oversampling_override = 1.0
 title = "Edit Spritesheet"
 position = Vector2i(-500, 0)
 size = Vector2i(272, 343)
 visible = true
 
-[node name="VBoxContainer" type="VBoxContainer" parent="SplitDialog"]
+[node name="VBoxContainer" type="VBoxContainer" parent="SplitDialog" unique_id=1156205680]
 offset_left = 8.0
 offset_top = 8.0
 offset_right = 264.0
 offset_bottom = 294.0
 
-[node name="Label" type="Label" parent="SplitDialog/VBoxContainer"]
+[node name="Label" type="Label" parent="SplitDialog/VBoxContainer" unique_id=702648751]
 layout_mode = 2
 text = "Split Frames"
 horizontal_alignment = 1
 
-[node name="HBoxContainer" type="HBoxContainer" parent="SplitDialog/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="SplitDialog/VBoxContainer" unique_id=1950495453]
 layout_mode = 2
 alignment = 1
 
-[node name="SplitX" type="SpinBox" parent="SplitDialog/VBoxContainer/HBoxContainer"]
+[node name="SplitX" type="SpinBox" parent="SplitDialog/VBoxContainer/HBoxContainer" unique_id=74986602]
 unique_name_in_owner = true
 layout_mode = 2
 min_value = 1.0
@@ -652,11 +652,11 @@ max_value = 1000.0
 value = 1.0
 select_all_on_focus = true
 
-[node name="Label" type="Label" parent="SplitDialog/VBoxContainer/HBoxContainer"]
+[node name="Label" type="Label" parent="SplitDialog/VBoxContainer/HBoxContainer" unique_id=228195349]
 layout_mode = 2
 text = "x"
 
-[node name="SplitY" type="SpinBox" parent="SplitDialog/VBoxContainer/HBoxContainer"]
+[node name="SplitY" type="SpinBox" parent="SplitDialog/VBoxContainer/HBoxContainer" unique_id=590805683]
 unique_name_in_owner = true
 layout_mode = 2
 min_value = 1.0
@@ -664,37 +664,37 @@ max_value = 1000.0
 value = 1.0
 select_all_on_focus = true
 
-[node name="CenterContainer" type="CenterContainer" parent="SplitDialog/VBoxContainer"]
+[node name="CenterContainer" type="CenterContainer" parent="SplitDialog/VBoxContainer" unique_id=394868249]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="PanelContainer" type="PanelContainer" parent="SplitDialog/VBoxContainer/CenterContainer"]
+[node name="PanelContainer" type="PanelContainer" parent="SplitDialog/VBoxContainer/CenterContainer" unique_id=1019390039]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_kjgn5")
 
-[node name="SplitPreview" type="TextureRect" parent="SplitDialog/VBoxContainer/CenterContainer/PanelContainer"]
+[node name="SplitPreview" type="TextureRect" parent="SplitDialog/VBoxContainer/CenterContainer/PanelContainer" unique_id=574326545]
 unique_name_in_owner = true
 layout_mode = 2
 
-[node name="StashDialog" type="AcceptDialog" parent="."]
+[node name="StashDialog" type="AcceptDialog" parent="." unique_id=404056742]
 oversampling_override = 1.0
 title = "Image Stash"
 position = Vector2i(-500, 500)
 size = Vector2i(309, 100)
 visible = true
 
-[node name="VBoxContainer" type="VBoxContainer" parent="StashDialog"]
+[node name="VBoxContainer" type="VBoxContainer" parent="StashDialog" unique_id=2035255474]
 offset_left = 8.0
 offset_top = 8.0
 offset_right = 301.0
 offset_bottom = 51.0
 
-[node name="Label" type="Label" parent="StashDialog/VBoxContainer"]
+[node name="Label" type="Label" parent="StashDialog/VBoxContainer" unique_id=1849222109]
 layout_mode = 2
 text = "Click frame to re-add it to spritesheet."
 horizontal_alignment = 1
 
-[node name="StashImages" type="HFlowContainer" parent="StashDialog/VBoxContainer"]
+[node name="StashImages" type="HFlowContainer" parent="StashDialog/VBoxContainer" unique_id=2044453943]
 unique_name_in_owner = true
 layout_mode = 2
 

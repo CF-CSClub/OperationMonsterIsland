@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://cd5wndu01c1sn"]
+[gd_scene format=3 uid="uid://cd5wndu01c1sn"]
 
 [sub_resource type="StyleBoxFlat" id="2"]
 resource_local_to_scene = true
@@ -62,15 +62,15 @@ func _gui_input(event: InputEvent) -> void:
 			get_tree().current_scene.remove_frame.call_deferred(self)
 "
 
-[node name="FramePrefab" type="PanelContainer" groups=["frame"]]
+[node name="FramePrefab" type="PanelContainer" unique_id=1943439858 groups=["frame"]]
 theme_override_styles/panel = SubResource("2")
 script = SubResource("3")
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1445778585]
 layout_mode = 2
 mouse_filter = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer" unique_id=1797723722]
 unique_name_in_owner = true
 texture_filter = 1
 layout_mode = 2
