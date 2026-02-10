@@ -16,7 +16,7 @@ godot_mcp/enabled=true
 
 config/name="MonToons: Clash of the Coral Isles"
 run/main_scene="res://scenes/AppRoot.tscn"
-config/features=PackedStringArray("4.5", "Forward Plus")
+config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -30,9 +30,14 @@ window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/scale_mode="integer"
 
+[editor]
+
+version_control/plugin_name="GitPlugin"
+version_control/autoload_on_startup=true
+
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_mcp/plugin.cfg")
+enabled=PackedStringArray("res://addons/SpritesheetGenerator/plugin.cfg", "res://addons/godot_mcp/plugin.cfg")
 
 [input]
 

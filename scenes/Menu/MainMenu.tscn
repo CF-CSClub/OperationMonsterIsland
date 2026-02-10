@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://mainmenu001"]
+[gd_scene format=3 uid="uid://mainmenu001"]
 
-[ext_resource type="Script" path="res://scenes/Menu/MainMenu.gd" id="1_menu"]
+[ext_resource type="Script" uid="uid://drby1n6hujiaa" path="res://scenes/Menu/MainMenu.gd" id="1_menu"]
 
-[node name="MainMenu" type="Control"]
+[node name="MainMenu" type="Control" unique_id=1869171062]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_menu")
 
-[node name="Background" type="ColorRect" parent="."]
+[node name="Background" type="ColorRect" parent="." unique_id=425402081]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -20,7 +20,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.1, 0.15, 0.2, 1)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1814771410]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -35,43 +35,43 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 20
 
-[node name="TitleLabel" type="Label" parent="VBoxContainer"]
+[node name="TitleLabel" type="Label" parent="VBoxContainer" unique_id=748742275]
 layout_mode = 2
 text = "MonToons: Clash of the Coral Isles"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Subtitle" type="Label" parent="VBoxContainer"]
+[node name="Subtitle" type="Label" parent="VBoxContainer" unique_id=1895227010]
 layout_mode = 2
 text = "A Tactical Hex Battle Game"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Spacer" type="Control" parent="VBoxContainer"]
+[node name="Spacer" type="Control" parent="VBoxContainer" unique_id=1503663423]
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 
-[node name="PlayerCountContainer" type="HBoxContainer" parent="VBoxContainer"]
+[node name="PlayerCountContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=412198093]
 layout_mode = 2
 alignment = 1
 
-[node name="PlayerCountLabel" type="Label" parent="VBoxContainer/PlayerCountContainer"]
+[node name="PlayerCountLabel" type="Label" parent="VBoxContainer/PlayerCountContainer" unique_id=1097707590]
 layout_mode = 2
 text = "Players: "
 
-[node name="PlayerCountSpin" type="SpinBox" parent="VBoxContainer/PlayerCountContainer"]
+[node name="PlayerCountSpin" type="SpinBox" parent="VBoxContainer/PlayerCountContainer" unique_id=19176621]
 layout_mode = 2
 min_value = 2.0
 max_value = 4.0
 value = 2.0
 
-[node name="StartButton" type="Button" parent="VBoxContainer"]
+[node name="StartButton" type="Button" parent="VBoxContainer" unique_id=404704390]
 custom_minimum_size = Vector2(200, 50)
 layout_mode = 2
 size_flags_horizontal = 4
 text = "Start Game"
 
-[node name="QuitButton" type="Button" parent="VBoxContainer"]
+[node name="QuitButton" type="Button" parent="VBoxContainer" unique_id=2051509491]
 custom_minimum_size = Vector2(200, 50)
 layout_mode = 2
 size_flags_horizontal = 4
