@@ -6,7 +6,6 @@ extends Node
 # GAME STATES
 # =============================================================================
 enum GameState {
-	NONE,
 	MAIN_MENU,
 	IN_GAME,
 	PAUSED,
@@ -78,13 +77,13 @@ const LOS_BLOCKING_TERRAIN: Array = [
 # =============================================================================
 # SCENE PATHS
 # =============================================================================
-const SCENE_MAIN_MENU: String = "res://scenes/Menu/MainMenu.tscn"
-const SCENE_GAME: String = "res://scenes/Game/GameRoot.tscn"
+const SCENE_MAIN_MENU := "res://scenes/Menu/MainMenu.tscn"
+const SCENE_GAME := "res://scenes/Game/GameRoot.tscn"
 
 # =============================================================================
 # CURRENT GAME STATE
 # =============================================================================
-var current_state: GameState = GameState.NONE
+var current_state: GameState
 var current_player_count: int = MIN_PLAYERS
 
 # =============================================================================
