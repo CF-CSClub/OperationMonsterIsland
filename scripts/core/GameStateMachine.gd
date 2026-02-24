@@ -6,12 +6,12 @@ extends Node
 signal state_entered(state: GameConfig.GameState)
 signal state_exited(state: GameConfig.GameState)
 
-var _current_state: GameConfig.GameState
-var _previous_state: GameConfig.GameState
+var _current_state: GameConfig.GameState = GameConfig.GameState.NONE
+var _previous_state: GameConfig.GameState = GameConfig.GameState.NONE
 
 # Dictionary of valid state transitions
 var _valid_transitions: Dictionary = {
-	GameConfig.NULL: [GameConfig.GameState.MAIN_MENU],
+	GameConfig.GameState.NONE: [GameConfig.GameState.MAIN_MENU],
 	GameConfig.GameState.MAIN_MENU: [GameConfig.GameState.IN_GAME],
 	GameConfig.GameState.IN_GAME: [GameConfig.GameState.PAUSED, GameConfig.GameState.GAME_OVER, GameConfig.GameState.MAIN_MENU],
 	GameConfig.GameState.PAUSED: [GameConfig.GameState.IN_GAME, GameConfig.GameState.MAIN_MENU],
