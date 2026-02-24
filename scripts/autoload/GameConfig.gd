@@ -51,6 +51,7 @@ const MIN_PLAYERS: int = 2
 const DICE_COUNT: int = 5
 const DICE_SIDES: int = 6
 const WAYSTONE_WIN_COUNT: int = 4
+const DEBUG_MODE: bool = true
 
 # Movement costs per terrain type
 const TERRAIN_MOVE_COSTS: Dictionary = {
@@ -84,8 +85,7 @@ const SCENE_GAME: String = "res://scenes/Game/GameRoot.tscn"
 # CURRENT GAME STATE
 # =============================================================================
 var current_state: GameState = GameState.NONE
-var current_player_count: int = 2
-var debug_mode: bool = true
+var current_player_count: int = MIN_PLAYERS
 
 # =============================================================================
 # HELPER FUNCTIONS
@@ -102,5 +102,5 @@ func set_game_state(new_state: GameState) -> void:
 	GameSignals.game_state_changed.emit(old_state, new_state)
 
 func _ready() -> void:
-	if debug_mode:
+	if DEBUG_MODE:
 		print("[GameConfig] Initialized")

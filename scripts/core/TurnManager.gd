@@ -13,7 +13,7 @@ var _current_player_index: int = 0
 var _player_order: Array[int] = []
 var _player_count: int = 2
 
-# Track which players are ready during planning
+## Track which players are ready during planning
 var _ready_players: Array[int] = []
 
 
@@ -44,7 +44,7 @@ func _setup_match() -> void:
 	
 	_set_phase(GameConfig.TurnPhase.SETUP)
 	
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[TurnManager] Match setup with %d players" % _player_count)
 	
 	# Start first round
@@ -58,7 +58,7 @@ func _start_round() -> void:
 	
 	GameSignals.round_started.emit(_current_round)
 	
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[TurnManager] Round %d started" % _current_round)
 	
 	# Start planning phase
@@ -69,7 +69,7 @@ func _start_round() -> void:
 func _start_planning_for_player(player_id: int) -> void:
 	GameSignals.planning_started.emit(player_id)
 	
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[TurnManager] Planning started for Player %d" % (player_id + 1))
 
 
@@ -78,7 +78,7 @@ func _on_player_ready(player_id: int) -> void:
 		_ready_players.append(player_id)
 		GameSignals.planning_ended.emit(player_id)
 		
-		if GameConfig.debug_mode:
+		if GameConfig.DEBUG_MODE:
 			print("[TurnManager] Player %d is ready" % (player_id + 1))
 	
 	# Check if all players are ready
@@ -95,7 +95,7 @@ func _all_players_ready() -> void:
 	# Transition to reveal speed phase
 	_set_phase(GameConfig.TurnPhase.REVEAL_SPEED)
 	
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[TurnManager] All players ready - revealing speed values")
 	
 	# TODO: Sort player order by speed values
@@ -118,7 +118,7 @@ func _start_player_turn() -> void:
 	GameSignals.action_phase_started.emit(current_player)
 	player_turn_started.emit(current_player)
 
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[TurnManager] Player %d's turn" % (current_player + 1))
 
 
@@ -143,7 +143,7 @@ func _end_round() -> void:
 	_set_phase(GameConfig.TurnPhase.ROUND_END)
 	GameSignals.round_ended.emit(_current_round)
 	
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[TurnManager] Round %d ended" % _current_round)
 	
 	# Start next round
@@ -156,7 +156,7 @@ func _set_phase(new_phase: GameConfig.TurnPhase) -> void:
 	phase_changed.emit(old_phase, new_phase)
 	GameSignals.turn_phase_changed.emit(new_phase)
 
-
+##Returns the current game phase as an enumeration under GameConfig
 func get_current_phase() -> GameConfig.TurnPhase:
 	return _current_phase
 

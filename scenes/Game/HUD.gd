@@ -88,7 +88,7 @@ func _update_display() -> void:
 	round_label.text = "Round: 0"
 	player_label.text = "Waiting..."
 
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		debug_label.visible = true
 		debug_label.text = "DEBUG MODE - Press ESC to return to menu"
 	else:

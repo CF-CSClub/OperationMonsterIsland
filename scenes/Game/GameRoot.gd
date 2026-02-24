@@ -8,7 +8,7 @@ extends Node
 
 
 func _ready() -> void:
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[GameRoot] Game scene loaded with %d players" % GameConfig.current_player_count)
 
 
