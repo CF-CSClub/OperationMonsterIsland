@@ -15,7 +15,7 @@ var _valid_transitions: Dictionary = {
 	GameConfig.GameState.MAIN_MENU: [GameConfig.GameState.IN_GAME],
 	GameConfig.GameState.IN_GAME: [GameConfig.GameState.PAUSED, GameConfig.GameState.GAME_OVER, GameConfig.GameState.MAIN_MENU],
 	GameConfig.GameState.PAUSED: [GameConfig.GameState.IN_GAME, GameConfig.GameState.MAIN_MENU],
-	GameConfig.GameState.GAME_OVER: [GameConfig.GameState.MAIN_MENU, GameConfig.GameState.IN_GAME]
+	GameConfig.GameState.GAME_OVER: [GameConfig.GameState.MAIN_MENU, GameConfig.GameState.IN_GAME],
 }
 
 
@@ -41,31 +41,33 @@ func can_transition_to(new_state: GameConfig.GameState) -> bool:
 func transition_to(new_state: GameConfig.GameState) -> bool:
 	# Validate transition
 	if _current_state != GameConfig.GameState.NONE and not can_transition_to(new_state):
-		push_warning("[GameStateMachine] Invalid transition from %s to %s" % [
-			GameConfig.GameState.keys()[_current_state],
-			GameConfig.GameState.keys()[new_state]
-		])
+		push_warning(
+			"[GameStateMachine] Invalid transition from %s to %s" % [
+				GameConfig.GameState.keys()[_current_state],
+				GameConfig.GameState.keys()[new_state],
+			],
+		)
 		return false
-	
+
 	# Exit current state
 	if _current_state != GameConfig.GameState.NONE:
 		_exit_state(_current_state)
 		state_exited.emit(_current_state)
-	
+
 	# Transition
 	_previous_state = _current_state
 	_current_state = new_state
-	
+
 	# Enter new state
 	_enter_state(new_state)
 	state_entered.emit(new_state)
-	
+
 	# Update global config
 	GameConfig.set_game_state(new_state)
-	
+
 	if GameConfig.debug_mode:
 		print("[GameStateMachine] Transitioned to: %s" % GameConfig.GameState.keys()[new_state])
-	
+
 	return true
 
 
@@ -97,7 +99,7 @@ func _exit_state(state: GameConfig.GameState) -> void:
 # STATE ENTER/EXIT HANDLERS
 # =============================================================================
 func _on_enter_main_menu() -> void:
-	pass  # Scene loading handled by AppRoot
+	pass # Scene loading handled by AppRoot
 
 
 func _on_exit_main_menu() -> void:

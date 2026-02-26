@@ -1,3 +1,7 @@
 {
-  
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWhenNoErrors": true,
+    "files.trimFinalNewlines": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "DoHe.godot-format"
 }

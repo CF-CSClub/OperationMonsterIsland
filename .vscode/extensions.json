@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "geequlim.godot-tools",
-        "alfish.godot-files"
+        "alfish.godot-files",
+        "dohe.godot-format"
     ]
 }
