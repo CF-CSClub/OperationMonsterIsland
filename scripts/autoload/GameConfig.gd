@@ -10,7 +10,7 @@ enum GameState {
 	MAIN_MENU,
 	IN_GAME,
 	PAUSED,
-	GAME_OVER
+	GAME_OVER,
 }
 
 # =============================================================================
@@ -21,7 +21,7 @@ enum TurnPhase {
 	PLANNING,
 	REVEAL_SPEED,
 	ACTION,
-	ROUND_END
+	ROUND_END,
 }
 
 # =============================================================================
@@ -40,7 +40,7 @@ enum TerrainType {
 	QUICKSAND,
 	VOID,
 	SWAMP,
-	BLIGHT
+	BLIGHT,
 }
 
 # =============================================================================
@@ -66,13 +66,13 @@ const TERRAIN_MOVE_COSTS: Dictionary = {
 	TerrainType.ICE: 1,
 	TerrainType.QUICKSAND: 1,
 	TerrainType.SWAMP: 3,
-	TerrainType.BLIGHT: 1
+	TerrainType.BLIGHT: 1,
 }
 
 # Terrain that blocks line of sight
 const LOS_BLOCKING_TERRAIN: Array = [
 	TerrainType.MOUNTAIN,
-	TerrainType.VOID
+	TerrainType.VOID,
 ]
 
 # =============================================================================
@@ -87,19 +87,23 @@ const SCENE_GAME: String = "res://scenes/Game/GameRoot.tscn"
 var current_state: GameState = GameState.NONE
 var current_player_count: int = MIN_PLAYERS
 
+
 # =============================================================================
 # HELPER FUNCTIONS
 # =============================================================================
 func get_terrain_cost(terrain: TerrainType) -> int:
 	return TERRAIN_MOVE_COSTS.get(terrain, 1)
 
+
 func does_terrain_block_los(terrain: TerrainType) -> bool:
 	return terrain in LOS_BLOCKING_TERRAIN
+
 
 func set_game_state(new_state: GameState) -> void:
 	var old_state = current_state
 	current_state = new_state
 	GameSignals.game_state_changed.emit(old_state, new_state)
+
 
 func _ready() -> void:
 	if DEBUG_MODE:

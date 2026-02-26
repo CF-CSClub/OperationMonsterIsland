@@ -11,12 +11,12 @@ func _ready() -> void:
 	# Connect button signals
 	start_button.pressed.connect(_on_start_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
-	
+
 	# Initialize player count
 	player_count_spin.min_value = GameConfig.MIN_PLAYERS
 	player_count_spin.max_value = GameConfig.MAX_PLAYERS
 	player_count_spin.value = GameConfig.current_player_count
-	
+
 	if GameConfig.debug_mode:
 		print("[MainMenu] Ready")
 
@@ -24,7 +24,7 @@ func _ready() -> void:
 func _on_start_pressed() -> void:
 	# Update player count in config
 	GameConfig.current_player_count = int(player_count_spin.value)
-	
+
 	# Find AppRoot and start game
 	var app_root = get_node("/root/AppRoot")
 	if app_root and app_root.has_method("start_game"):

@@ -13,10 +13,10 @@ func _ready() -> void:
 	# Connect to signals
 	GameSignals.scene_change_requested.connect(_on_scene_change_requested)
 	state_machine.state_entered.connect(_on_state_entered)
-	
+
 	# Load initial scene (MainMenu)
 	_load_scene(GameConfig.SCENE_MAIN_MENU)
-	
+
 	if GameConfig.debug_mode:
 		print("[AppRoot] Application initialized")
 
@@ -37,28 +37,28 @@ func _load_scene(scene_path: String) -> void:
 	if _is_transitioning:
 		push_warning("[AppRoot] Scene transition already in progress")
 		return
-	
+
 	_is_transitioning = true
-	
+
 	# Unload current scene
 	if _current_scene:
 		_current_scene.queue_free()
 		_current_scene = null
-	
+
 	# Load new scene
 	var packed_scene = load(scene_path)
 	if packed_scene:
 		_current_scene = packed_scene.instantiate()
 		scene_container.add_child(_current_scene)
-		
+
 		var scene_name = scene_path.get_file().get_basename()
 		GameSignals.scene_loaded.emit(scene_name)
-		
+
 		if GameConfig.debug_mode:
 			print("[AppRoot] Loaded scene: %s" % scene_name)
 	else:
 		push_error("[AppRoot] Failed to load scene: %s" % scene_path)
-	
+
 	_is_transitioning = false
 
 
