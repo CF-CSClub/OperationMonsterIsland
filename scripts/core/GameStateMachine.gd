@@ -65,7 +65,7 @@ func transition_to(new_state: GameConfig.GameState) -> bool:
 	# Update global config
 	GameConfig.set_game_state(new_state)
 
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[GameStateMachine] Transitioned to: %s" % GameConfig.GameState.keys()[new_state])
 
 	return true

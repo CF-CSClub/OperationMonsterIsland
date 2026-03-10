@@ -17,7 +17,7 @@ func _ready() -> void:
 	player_count_spin.max_value = GameConfig.MAX_PLAYERS
 	player_count_spin.value = GameConfig.current_player_count
 
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[MainMenu] Ready")
 
 

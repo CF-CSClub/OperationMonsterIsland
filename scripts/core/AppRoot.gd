@@ -17,7 +17,7 @@ func _ready() -> void:
 	# Load initial scene (MainMenu)
 	_load_scene(GameConfig.SCENE_MAIN_MENU)
 
-	if GameConfig.debug_mode:
+	if GameConfig.DEBUG_MODE:
 		print("[AppRoot] Application initialized")
 
 
@@ -54,7 +54,7 @@ func _load_scene(scene_path: String) -> void:
 		var scene_name = scene_path.get_file().get_basename()
 		GameSignals.scene_loaded.emit(scene_name)
 
-		if GameConfig.debug_mode:
+		if GameConfig.DEBUG_MODE:
 			print("[AppRoot] Loaded scene: %s" % scene_name)
 	else:
 		push_error("[AppRoot] Failed to load scene: %s" % scene_path)
