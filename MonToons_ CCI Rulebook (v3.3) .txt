@@ -1,24 +1,24 @@
-﻿Table of Contents
+Table of Contents
 
 
 Introduction …………………………………………………………………………………..………….. 2
-        Object of the Game…………………………………………………………………………………. 2
-        How to Win..…………………………………………………………………………………………. 2
+		Object of the Game…………………………………………………………………………………. 2
+		How to Win..…………………………………………………………………………………………. 2
 Components……………………………………………………………………………………..……….. 2
 Game Setup ……………………………………………………………………………………………… 3
 Basic Concepts …………………………………………………………………………………………  4
-        Anatomy of a Character Sheet……………………………………………………………………. 5
+		Anatomy of a Character Sheet……………………………………………………………………. 5
 Gameplay……………………………………………………………………………………………….… 6
-        Planning Phase ………………………………………………………………………………….…6
-        Speed Value ……………………………………………………………………………….……. 6
-        Action Phase ……………………………………………………………………………………..…6
+		Planning Phase ………………………………………………………………………………….…6
+		Speed Value ……………………………………………………………………………….……. 6
+		Action Phase ……………………………………………………………………………………..…6
 Unused Dice …………………………………………………………………………………….. 7
-        Movement Action ……………………………………………………………………….………. 7
+		Movement Action ……………………………………………………………………….………. 7
 Terrain Types ……………………………………………………………………….…. 8
 Basic Attack Action ……………………………………………………………………….…… 12
 Targeting …………………………………………………………………….………… 13
-        Range …………………………………………………………………………… 13
-        Line of Sight (LoS) …….………………………………………………………...13
+		Range …………………………………………………………………………… 13
+		Line of Sight (LoS) …….………………………………………………………...13
 Golden Hearts …….……………………….…………………………………………..14
 Special Attack Action ………………………………………………………………………..… 15
 Powering Up …………………. ……………………………………………………… 15
@@ -26,14 +26,14 @@ Ultimate Attack Action …………………………………………………
 Waystone Action  …………………………………………………………………………….... 16
 Waystone Movement ………………………………………………………..………. 17
 Earning & Gaining Bonuses ………………….……………………………….……. 18
-        Basic Bonuses …….…………………………………………………..………...18
-        Special Bonuses …….…………………………………………………..…….. 20
-        Waystone Bonuses …….…………………………………………………..….. 20
+		Basic Bonuses …….…………………………………………………..………...18
+		Special Bonuses …….…………………………………………………..…….. 20
+		Waystone Bonuses …….…………………………………………………..….. 20
 Waystone Powers ……………………………………………………………………. 21
 Keyword Abilities ………………………………………………………………………………………. 22
 Status Effects ………………………………………………………………………………………….... 27
-        Temporary Status Effects  ……………………………………………………………….……...… 27
-        Persistent Status Effects ………………………………………………………………………….. 30
+		Temporary Status Effects  ……………………………………………………………….……...… 27
+		Persistent Status Effects ………………………………………………………………………….. 30
 Credits ……………………………………………………………………………………………………. 31
 Appendix ..……………………………………………………………………………………………….. 32
 This is a Dynamic Rulebook. We'll update it as new characters, effects, hexes and abilities are added. Thank you for your support!
