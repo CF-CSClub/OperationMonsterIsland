@@ -12,7 +12,7 @@ var peers : Dictionary[int, WebSocketPeer] = {}
 var pending_peers : Array[PendingPeer]= []
 var _port : int = 9080
 var refuse_new_connections := false
-var handshake_timeout := 3000 # ms
+var handshake_timeout : int = 3000 # ms
 
 class PendingPeer:
 	var tcp: StreamPeerTCP
