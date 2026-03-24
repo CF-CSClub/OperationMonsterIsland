@@ -17,7 +17,7 @@ var handshake_timeout = 3000 # ms
 class PendingPeer:
 	var tcp: StreamPeerTCP
 	var connection: StreamPeer
-	var ws: WebSocketPeer = null
+	var ws: WebSocketPeer
 	var connect_time: int
 	
 	func _init(p_tcp: StreamPeerTCP):
