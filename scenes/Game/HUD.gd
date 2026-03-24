@@ -31,7 +31,7 @@ func _ready() -> void:
 
 
 func _on_phase_changed(new_phase: int) -> void:
-	var phase_name = GameConfig.TurnPhase.keys()[new_phase]
+	var phase_name : String = GameConfig.TurnPhase.keys()[new_phase]
 	phase_label.text = "Phase: " + phase_name
 
 	# Toggle buttons based on phase
@@ -67,7 +67,7 @@ func _set_planning_mode(is_planning: bool) -> void:
 
 func _on_end_turn_pressed() -> void:
 	# Find TurnManager and end turn
-	var turn_manager = get_node_or_null("/root/AppRoot/SceneContainer/GameRoot/TurnManager")
+	var turn_manager := get_node_or_null("/root/AppRoot/SceneContainer/GameRoot/TurnManager")
 	if turn_manager and turn_manager.has_method("end_current_turn"):
 		turn_manager.end_current_turn()
 

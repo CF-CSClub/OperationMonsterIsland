@@ -114,7 +114,7 @@ func _start_player_turn() -> void:
 		push_error("[TurnManager] Cannot start turn - invalid player order state")
 		return
 
-	var current_player = _player_order[_current_player_index]
+	var current_player := _player_order[_current_player_index]
 	GameSignals.action_phase_started.emit(current_player)
 	player_turn_started.emit(current_player)
 
@@ -151,7 +151,7 @@ func _end_round() -> void:
 
 
 func _set_phase(new_phase: GameConfig.TurnPhase) -> void:
-	var old_phase = _current_phase
+	var old_phase := _current_phase
 	_current_phase = new_phase
 	phase_changed.emit(old_phase, new_phase)
 	GameSignals.turn_phase_changed.emit(new_phase)

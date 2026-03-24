@@ -19,6 +19,6 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func _return_to_menu() -> void:
-	var app_root = get_node("/root/AppRoot")
+	var app_root := get_node("/root/AppRoot")
 	if app_root and app_root.has_method("return_to_menu"):
 		app_root.return_to_menu()

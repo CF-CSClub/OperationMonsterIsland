@@ -26,7 +26,7 @@ func _on_start_pressed() -> void:
 	GameConfig.current_player_count = int(player_count_spin.value)
 
 	# Find AppRoot and start game
-	var app_root = get_node("/root/AppRoot")
+	var app_root := get_node("/root/AppRoot")
 	if app_root and app_root.has_method("start_game"):
 		app_root.start_game()
 	else:

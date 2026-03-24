@@ -100,7 +100,7 @@ func does_terrain_block_los(terrain: TerrainType) -> bool:
 
 
 func set_game_state(new_state: GameState) -> void:
-	var old_state = current_state
+	var old_state : GameState = current_state
 	current_state = new_state
 	GameSignals.game_state_changed.emit(old_state, new_state)
 

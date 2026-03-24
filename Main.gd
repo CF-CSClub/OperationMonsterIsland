@@ -7,7 +7,7 @@ var place : int = 0
 
 
 func _unhandled_input(event: InputEvent) -> void:
-	var tween = create_tween()
+	var tween := create_tween()
 	match event.as_text():
 		"Left":
 			tween.tween_property(hokuToken, "position", Vector2(hokuToken.position.x - 10, hokuToken.position.y), 0.1)
