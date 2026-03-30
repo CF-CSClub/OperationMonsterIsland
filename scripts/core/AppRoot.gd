@@ -51,7 +51,7 @@ func _load_scene(scene_path: String) -> void:
 		_current_scene = packed_scene.instantiate()
 		scene_container.add_child(_current_scene)
 
-		var scene_name = scene_path.get_file().get_basename()
+		var scene_name := scene_path.get_file().get_basename()
 		GameSignals.scene_loaded.emit(scene_name)
 
 		if GameConfig.DEBUG_MODE:
