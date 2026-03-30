@@ -12,6 +12,7 @@ var _current_round: int = 0
 var _current_player_index: int = 0
 var _player_order: Array[int] = []
 var _player_count: int = 2
+var _currentPlayerActionRoll : Array[int]
 
 ## Track which players are ready during planning
 var _ready_players: Array[int] = []
@@ -101,6 +102,17 @@ func _all_players_ready() -> void:
 	# TODO: Sort player order by speed values
 	# For now, just proceed to action phase
 	_start_action_phase()
+
+#Rolls provided number of dice with given side count and returns it as an array
+func _roll_action_dice(howMany : int = GameConfig.current_player_count, sides : int = 6) -> Array[int]:
+	var diceRolls : Array[int] = Array[howMany]
+	for currentIndex in diceRolls.size():
+		Array[currentIndex] = _roll_die(sides)
+	return diceRolls
+
+#Rolls a single die, with a return of an int between 1 and input, inclusive.
+func _roll_die(sides : int = 6) -> int:
+	return RandomNumberGenerator.new().randi_range(0,sides)
 
 
 func _start_action_phase() -> void:
