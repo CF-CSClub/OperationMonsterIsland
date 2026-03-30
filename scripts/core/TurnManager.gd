@@ -105,9 +105,10 @@ func _all_players_ready() -> void:
 
 #Rolls provided number of dice with given side count and returns it as an array
 func _roll_action_dice(howMany : int = GameConfig.current_player_count, sides : int = 6) -> Array[int]:
-	var diceRolls : Array[int] = Array[howMany]
+	var diceRolls : Array[int] = []
+	diceRolls.resize(howMany)
 	for currentIndex in diceRolls.size():
-		Array[currentIndex] = _roll_die(sides)
+		diceRolls[currentIndex] = _roll_die(sides)
 	return diceRolls
 
 #Rolls a single die, with a return of an int between 1 and input, inclusive.
