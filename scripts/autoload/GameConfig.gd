@@ -98,6 +98,9 @@ func get_terrain_cost(terrain: TerrainType) -> int:
 func does_terrain_block_los(terrain: TerrainType) -> bool:
 	return terrain in LOS_BLOCKING_TERRAIN
 
+#TODO
+func do_setup() -> void:
+	pass
 
 func set_game_state(new_state: GameState) -> void:
 	var old_state : GameState = current_state
