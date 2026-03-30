@@ -28,6 +28,8 @@ GameConfig="*res://scripts/autoload/GameConfig.gd"
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+window/size/mode=2
+window/stretch/mode="viewport"
 window/stretch/scale_mode="integer"
 display_server/driver.linuxbsd="wayland"
 window/vsync/vsync_mode=2
@@ -51,5 +53,5 @@ ui_click={
 
 [rendering]
 
-textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="forward_plus"
