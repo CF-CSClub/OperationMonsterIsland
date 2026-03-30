@@ -78,7 +78,7 @@ func _on_ready_pressed() -> void:
 
 
 func _on_back_pressed() -> void:
-	var app_root = get_node("/root/AppRoot")
+	var app_root := get_node("/root/AppRoot")
 	if app_root and app_root.has_method("return_to_menu"):
 		app_root.return_to_menu()
 
