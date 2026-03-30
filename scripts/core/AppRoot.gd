@@ -46,7 +46,7 @@ func _load_scene(scene_path: String) -> void:
 		_current_scene = null
 
 	# Load new scene
-	var packed_scene = load(scene_path)
+	var packed_scene := load(scene_path)
 	if packed_scene:
 		_current_scene = packed_scene.instantiate()
 		scene_container.add_child(_current_scene)
