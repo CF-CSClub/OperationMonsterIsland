@@ -140,7 +140,7 @@ func end_current_turn() -> void:
 		push_error("[TurnManager] Cannot end turn - invalid player order state")
 		return
 
-	var current_player = _player_order[_current_player_index]
+	var current_player := _player_order[_current_player_index]
 	GameSignals.action_phase_ended.emit(current_player)
 	player_turn_ended.emit(current_player)
 
