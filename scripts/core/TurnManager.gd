@@ -74,7 +74,22 @@ func _start_planning_for_player(player_id: int) -> void:
 		print("[TurnManager] Planning started for Player %d" % (player_id + 1))
 	_currentPlayerActionRoll = _roll_action_dice()
 	#5 Action die per player
+	#We deviate slightly from rules behavior and roll these per player.
+	_assign_dice()
 
+##Loop method to assign dice
+func _assign_dice() -> void:
+	#TODO, This is a complex method. Ideally we should enter a UI to assign dice.
+	#Current methods are dummy methods for what we want to do
+	var currentDieVal : int
+	while _currentPlayerActionRoll != null:
+		currentDieVal = _currentPlayerActionRoll[selectDie()]
+	return
+	
+##Selects a die using ui, returns index.
+func selectDie() -> int:
+	#TODO
+	return 0;
 func _on_player_ready(player_id: int) -> void:
 	if player_id not in _ready_players:
 		_ready_players.append(player_id)
