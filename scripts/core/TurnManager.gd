@@ -69,10 +69,11 @@ func _start_round() -> void:
 
 func _start_planning_for_player(player_id: int) -> void:
 	GameSignals.planning_started.emit(player_id)
-
+	#TODO: Allow players to assign dice rolls to actions here. We likely need UI for this.
 	if GameConfig.DEBUG_MODE:
 		print("[TurnManager] Planning started for Player %d" % (player_id + 1))
-
+	_currentPlayerActionRoll = _roll_action_dice()
+	#5 Action die per player
 
 func _on_player_ready(player_id: int) -> void:
 	if player_id not in _ready_players:
@@ -103,15 +104,15 @@ func _all_players_ready() -> void:
 	# For now, just proceed to action phase
 	_start_action_phase()
 
-#Rolls provided number of dice with given side count and returns it as an array
-func _roll_action_dice(howMany : int = GameConfig.current_player_count, sides : int = 6) -> Array[int]:
+##Rolls provided number of dice with given side count and returns it as an array
+func _roll_action_dice(howMany : int = 5, sides : int = 6) -> Array[int]:
 	var diceRolls : Array[int] = []
 	diceRolls.resize(howMany)
 	for currentIndex in diceRolls.size():
 		diceRolls[currentIndex] = _roll_die(sides)
 	return diceRolls
 
-#Rolls a single die, with a return of an int between 1 and input, inclusive.
+##Rolls a single die, with a return of an int between 1 and input, inclusive.
 func _roll_die(sides : int = 6) -> int:
 	return RandomNumberGenerator.new().randi_range(0,sides)
 
